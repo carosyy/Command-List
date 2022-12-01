@@ -6,7 +6,7 @@ Command List for Linux (Ubuntu, Manjaro, Docker, etc.) through VirtualBox 6
 | Commando  | Descripción | Ejemplos de Uso | 
 | ------------- | ------------- | ------------- |
 | `sudo` | Permite ejecutar cualquier programa como administrador  |  `sudo su` y `sudo -i` para pasar a modo administrativo/root, `sudo <comando>` para darle permisos de ejecucion en modo administrativo a un comando.  |
-| ls  | Content Cell  |  Content Cell  |
+| `ls`  | Muestra la lista de archivos y carpetas del directorio actual, imprime en pantalla las lista de las carpetas y archivos de la carpeta actual |  `ls -l` imprime los archivos en un formato de lista, `ls -a` imprime los archivos tanto visibles como ocultos  |
 | ls - l | Content Cell  |  Content Cell  |
 | ls - a | Content Cell  |  Content Cell  |
 | pwd | Content Cell  |  Content Cell  |
