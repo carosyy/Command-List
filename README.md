@@ -5,7 +5,7 @@ Command List for Linux (Ubuntu, Manjaro, Docker, etc.) through VirtualBox 6
 
 | Commando  | Descripción | Ejemplos de Uso | 
 | ------------- | ------------- | ------------- |
-| `sudo` | Permite ejecutar cualquier programa como administrador  |  `sudo su` y `sudo -i` para pasar a modo administrativo/root, `sudo <comando>` para darle permisos de ejecucion a un comando o programa.  |
+| `sudo` | Permite ejecutar cualquier programa como administrador  | `sudo su` y `sudo -i` para pasar a modo administrativo/root, `sudo <comando>` para darle permisos de ejecucion a un comando o programa.  |
 | `ls`  | Muestra la lista de archivos y carpetas del directorio actual, imprime en pantalla las lista de las carpetas y archivos de la carpeta actual |  `ls -l` imprime los archivos en un formato de lista, `ls -a` imprime los archivos tanto visibles como ocultos  |
 | `/` | "Madre de carpetas", dentro de lash estan dentros todas las carpetas del sistema operativo |  Content Cell  |
 | `pwd` | Muestra la ruta de un archivo, carpeta, o donde uno esta posicionado  |  Content Cell  |
@@ -15,11 +15,11 @@ Command List for Linux (Ubuntu, Manjaro, Docker, etc.) through VirtualBox 6
 | `cat` | Imprime el contenido del archivo, se utiliza para visualizar el contenido de un archivo  |  `cat <nombre archivo>.txt` se usa para imprimir en terminal el contenido de un archivo de texto  |
 | `mkdir` | Crea carpetas/directorios nuevas |  `mkdir <nombre carpeta/directorio>` se usa para crear un directorio/carpeta en la ubicacion donde se encuentra, `mkdir <nombre carpeta/directorio> <ruta>` se usa para crear un carpeta/directorio en una ubicacion especifica |
 | `rm` | Eliminar archivos y carpetas/directorios | `rm <nombre archivo>.txt` se usa para eliminar un archivo. Nota: hay que escribir el formato al final para eliminar el correcto. `rm <nombre archivo>.* -R` se utiliza para eliminar de manera recursiva  |
-| `top` | Content Cell  |  Content Cell  |
-| `htop` | Content Cell  |  Content Cell  |
-| `ps -aux` | Content Cell  |  Content Cell  |
-| `pstree` | Content Cell  |  Content Cell  |
-| `kill` | Content Cell  |  Content Cell  |
+| `top` | Ver el administrador de procesos en una terminal interactiva. Para salir del administrador de procesos: ctrl + c  |  Content Cell  |
+| `htop` | Comando para su instalacion: `sudo apt install htop`. Ver administrador de procesos con colores en una terminal interactiva. Para salir del administrador de procesos: ctrl + c |  Content Cell  |
+| `ps -aux` | Imprime en pantalla el estado de los procesos en el momento actual |  `ps -a`  |
+| `pstree` | Muestra los procesos como arbol |  Content Cell  |
+| `kill` | Mata/Para procesos dentro del sistema operativo. Para quitar una app:s e busca el PID (process ID) y en la Terminal se escribe: `kill -9 (PID de la app a quitar)`  |  Content Cell  |
 | `ip a` | Content Cell  |  Content Cell  |
 | `&&` | Content Cell  |  Content Cell  |
 | `man` | Content Cell  |  Content Cell  |
