@@ -7,7 +7,7 @@ Command List for Linux (Ubuntu, Manjaro, Docker, etc.) through VirtualBox 6
 | ------------- | ------------- | ------------- |
 | `sudo` | Permite ejecutar cualquier programa como administrador  | `sudo su` y `sudo -i` para pasar a modo administrativo/root, `sudo <comando>` para darle permisos de ejecucion a un comando o programa.  |
 | `ls`  | Muestra la lista de archivos y carpetas del directorio actual, imprime en pantalla las lista de las carpetas y archivos de la carpeta actual |  `ls -l` imprime los archivos en un formato de lista, `ls -a` imprime los archivos tanto visibles como ocultos  |
-| `/` | "Madre de carpetas", dentro de lash estan dentros todas las carpetas del sistema operativo |  Content Cell  |
+| `/` | "Madre de carpetas", dentro de lash estan dentros todas las carpetas del sistema operativo |  La ruta de todos los directorios empiezan con `/`  |
 | `pwd` | Muestra la ruta de un archivo, carpeta, o donde uno esta posicionado  |  `pwd <opcion: -L o -P>` para encontrar la ruta en el dicrectorio que uno se encuentra actualmente.  |
 | `clear`  | Limpia la terminal, se elimina todo el contenido de la pantalla  |  Solo se necesita ejecutar `clear` sin ningun comando o condicion para limpiar la terminal  |
 | `cd` | Change direction/cambiar directorio  |   `cd <ruta>` se usa para cambiar de un directorio a otro, mientras que `cd ..` es para devolverse |
@@ -35,7 +35,7 @@ Command List for Linux (Ubuntu, Manjaro, Docker, etc.) through VirtualBox 6
 | `history` | Muestra el historial de todos los comandos ejecutados desde el principio | Content Cell  |
 | `grep` | Content Cell  |  Content Cell  |
 | `reboot` | Reinicia el equipo |  Content Cell  |
-| `sudo apt install` | Content Cell  |  Content Cell  |
+| `apt install` | Content Cell  |  Content Cell  |
 | `find` | Content Cell  |  Content Cell  |
 | `echo` | Content Cell  |  Content Cell  |
 | `>` | Se utiliza para convertir un comando a otro.  |  `ls > archivo.txt` es una ejemplo para que lo que imprime `ls` se guarde un archivo de texto. Tiene multiples usos y se puede combinar con otros comandos.  |
@@ -60,7 +60,7 @@ Command List for Linux (Ubuntu, Manjaro, Docker, etc.) through VirtualBox 6
 | `ifconfig` | Content Cell  |  Content Cell  |
 | `network` | Content Cell  |  Content Cell  |
 | `vim` | Content Cell  |  Content Cell  |
-| `rmdir` | Content Cell  |  Content Cell  |
+| `rmdir` | Eliminar permanentement directorios vacios  |  `rmdir <nombre directorio>` para eliminar un directorio en especifico, necesita tener los privilegios `sudo` para poder ejecutarse  |
 | `touch` | Content Cell  |  Content Cell  |
 | `df` | Content Cell  |  Content Cell  |
 | `du` | Content Cell  |  Content Cell  |
