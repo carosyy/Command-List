@@ -35,6 +35,16 @@ Command List for Linux (Ubuntu, Manjaro, Docker, etc.) through VirtualBox 6
 | `history` | Content Cell  |  Content Cell  |
 | `grep` | Content Cell  |  Content Cell  |
 | `reboot` | Content Cell  |  Content Cell  |
+| `sudo apt install` | Content Cell  |  Content Cell  |
+| `find` | Content Cell  |  Content Cell  |
+| `echo` | Content Cell  |  Content Cell  |
+| `>` | Content Cell  |  Content Cell  |
+| `scp` | Content Cell  |  Content Cell  |
+| `bash` | Content Cell  |  Content Cell  |
+| `zenity` | Content Cell  |  Content Cell  |
+| `docker` | Content Cell  |  Content Cell  |
+| `systemctl` | Content Cell  |  Content Cell  |
+| `tar` | Content Cell  |  Content Cell  |
 | Content Cell | Content Cell  |  Content Cell  |
 | Content Cell | Content Cell  |  Content Cell  |
 | Content Cell | Content Cell  |  Content Cell  |
@@ -49,4 +59,93 @@ Command List for Linux (Ubuntu, Manjaro, Docker, etc.) through VirtualBox 6
 | Content Cell | Content Cell  |  Content Cell  |
 | Content Cell | Content Cell  |  Content Cell  |
 | Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
