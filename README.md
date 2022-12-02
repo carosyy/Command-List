@@ -30,11 +30,11 @@ Command List for Linux (Ubuntu, Manjaro, Docker, etc.) through VirtualBox 6
 | `head` | Imprime en pantalla una el principio de cierta cantidad de lineas de documentos largos.  Solo funcionan con archivos de texto.  |  `head -n <numero> <ruta>` para visualizar las ultimas lineas de un documento de acuerdo al numero ingresado |
 | `cp` | Copiar un archivo  |  `cp <nombre archivo original> <nombre archivo copia>` para hacer copias de un documento, `cp <nombre archivo> <ruta>` para hacer una copia en una ubicacion especifica |
 | `mv` | Mover un archivo a una carpeta  |  `mv <nombre archivo> <ruta>` para mover a un archivo o carpeta de un lugar a otro.  |
-| `adduser`  `useradd` | Crear un usuario  |  `adduser/useradd <nombre usuario` para crear un nuevo usuario  |
+| `adduser`  `useradd` | Crear un usuario  |  `adduser/useradd <nombre usuario>` para crear un nuevo usuario  |
 | `passwd` | Cambiar la contraseña de un usuario |  ` sudo passwd <nombre usuario>` para cambiar la contraseña de un usuario en especifico  |
 | `history` | Muestra el historial de todos los comandos ejecutados desde el principio | Content Cell  |
 | `grep` | Content Cell  |  Content Cell  |
-| `reboot` | Content Cell  |  Content Cell  |
+| `reboot` | Reinicia el equipo |  Content Cell  |
 | `sudo apt install` | Content Cell  |  Content Cell  |
 | `find` | Content Cell  |  Content Cell  |
 | `echo` | Content Cell  |  Content Cell  |
