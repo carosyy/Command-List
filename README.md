@@ -10,9 +10,8 @@ Command List for Linux (Ubuntu, Manjaro, Docker, etc.) through VirtualBox 6
 | `/` | "Madre de carpetas", dentro de lash estan dentros todas las carpetas del sistema operativo |  Content Cell  |
 | `pwd` | Muestra la ruta de un archivo, carpeta, o donde uno esta posicionado  |  Content Cell  |
 | `clear`  | Limpia la terminal, se elimina todo el contenido de la pantalla  |  Content Cell  |
-| `cd` | Change direction/cambiar directorio  |  Content Cell  |
-| cd .. | Content Cell  |  Content Cell  |
-| nano | Content Cell  |  Content Cell  |
+| `cd` | Change direction/cambiar directorio  |   `cd <ruta>` se usa para cambiar de un directorio a otro, mientras que `cd ..` es para devolverse |
+| nano | Crea documentos, editor de texto en consola |  `nano <nombre archivo>`.txt es para crear o editar achivos de texto. Este comando se puede usar para crear archivos de otros formatos (ej. *.sh, *.ps1)  |
 | cat | Content Cell  |  Content Cell  |
 | rm | Content Cell  |  Content Cell  |
 | rm -R | Content Cell  |  Content Cell  |
