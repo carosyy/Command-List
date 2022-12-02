@@ -32,9 +32,9 @@ Command List for Linux (Ubuntu, Manjaro, Docker, etc.) through VirtualBox 6
 | `mv` | Mover un archivo a una carpeta  |  `mv <nombre archivo> <ruta>` para mover a un archivo o carpeta de un lugar a otro.  |
 | `adduser`  `useradd` | Crear un usuario  |  `adduser/useradd <nombre usuario>` para crear un nuevo usuario  |
 | `passwd` | Cambiar la contraseña de un usuario |  ` sudo passwd <nombre usuario>` para cambiar la contraseña de un usuario en especifico  |
-| `history` | Muestra el historial de todos los comandos ejecutados desde el principio | Content Cell  |
-| `grep` | Content Cell  |  Content Cell  |
-| `reboot` | Reinicia el equipo |  Content Cell  |
+| `history` | Muestra el historial de todos los comandos ejecutados desde el principio | Solo se necesita ejecutar `history` sin ningun comando o condicion para visualizar los comandos ejecutados desde el inicio  |
+| `grep` | Buscar un palabra entre el texto de un archivo especifico  |  `grep <palabra a buscar> <archivo de texto>` para buscar un palabra especifica en un archivo fijo |
+| `reboot` | Reinicia el equipo |  Solo se necesita ejecutar `reboot` sin ningun comando o condicion para reiniciar el equipo  |
 | `apt install` | Content Cell  |  Content Cell  |
 | `find` | Content Cell  |  Content Cell  |
 | `echo` | Content Cell  |  Content Cell  |
@@ -47,7 +47,7 @@ Command List for Linux (Ubuntu, Manjaro, Docker, etc.) through VirtualBox 6
 | `tar` | Content Cell  |  Content Cell  |
 | `git clone` | Content Cell  |  Content Cell  |
 | `wget` | Content Cell  |  Content Cell  |
-| `locate` | Content Cell  |  Content Cell  |
+| `locate` | Buscar un archivo en un sistema de base de datos  |  `locate -i <palabra>` para buscar una palabra en especifico sin hacer distincion entre miniscula o mayuscula. Para buscar dos palabras a la vez, cada palabra se separa por un asterico (*)  |
 | `zip` | Content Cell  |  Content Cell  |
 | `unzip` | Content Cell  |  Content Cell  |
 | `curl` | Content Cell  |  Content Cell  |
