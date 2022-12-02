@@ -45,38 +45,38 @@ Command List for Linux (Ubuntu, Manjaro, Docker, etc.) through VirtualBox 6
 | `docker` | Content Cell  |  Content Cell  |
 | `systemctl` | Content Cell  |  Content Cell  |
 | `tar` | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
+| `git clone` | Content Cell  |  Content Cell  |
+| `wget` | Content Cell  |  Content Cell  |
+| `locate` | Content Cell  |  Content Cell  |
+| `zip` | Content Cell  |  Content Cell  |
+| `unzip` | Content Cell  |  Content Cell  |
+| `curl` | Content Cell  |  Content Cell  |
+| `wc` | Content Cell  |  Content Cell  |
+| `apt-get` | Content Cell  |  Content Cell  |
+| `pwsh` | Content Cell  |  Content Cell  |
+| `quit` | Content Cell  |  Content Cell  |
+| `updatedb` | Content Cell  |  Content Cell  |
+| `uname` | Content Cell  |  Content Cell  |
+| `ifconfig` | Content Cell  |  Content Cell  |
+| `network` | Content Cell  |  Content Cell  |
+| `vim` | Content Cell  |  Content Cell  |
+| `rmdir` | Content Cell  |  Content Cell  |
+| `touch` | Content Cell  |  Content Cell  |
+| `df` | Content Cell  |  Content Cell  |
+| `du` | Content Cell  |  Content Cell  |
+| `chmod` | Content Cell  |  Content Cell  |
+| `chown` | Content Cell  |  Content Cell  |
+| `su` | Content Cell  |  Content Cell  |
+| `less` | Content Cell  |  Content Cell  |
+| `dpkg` | Content Cell  |  Content Cell  |
+| `ping` | Content Cell  |  Content Cell  |
+| `nmap` | Content Cell  |  Content Cell  |
+| `nslookup` | Content Cell  |  Content Cell  |
+| `netstat` | Content Cell  |  Content Cell  |
+| `fdisk` | Content Cell  |  Content Cell  |
+| `ln` | Content Cell  |  Content Cell  |
+| `apcalc` | Content Cell  |  Content Cell  |
+| `alias` | Content Cell  |  Content Cell  |
 | Content Cell | Content Cell  |  Content Cell  |
 | Content Cell | Content Cell  |  Content Cell  |
 | Content Cell | Content Cell  |  Content Cell  |
