@@ -14,7 +14,7 @@ Command List for Linux (Ubuntu, Manjaro, Docker, etc.) through VirtualBox 6
 | `nano` | Crea documentos, editor de texto en consola |  `nano <nombre archivo>.txt` es para crear o editar achivos de texto. Este comando se puede usar para crear archivos de otros formatos (ej. *.sh, *.ps1)  |
 | `cat` | Imprime el contenido del archivo, se utiliza para visualizar el contenido de un archivo  |  `cat <nombre archivo>.txt` se usa para imprimir en terminal el contenido de un archivo de texto  |
 | `mkdir` | Crea carpetas/directorios nuevas |  `mkdir <nombre carpeta/directorio>` se usa para crear un directorio/carpeta en la ubicacion donde se encuentra, `mkdir <nombre carpeta/directorio> <ruta>` se usa para crear un carpeta/directorio en una ubicacion especifica |
-| `rm` | Eliminar archivos y carpetas/directorios | `rm <nombre archivo>.txt` se usa para eliminar un archivo. Nota: hay que escribir el formato al final para eliminar el correcto. `rm <nombre archivo>.* -R` se utiliza para eliminar de manera recursiva  |
+| `rm` | Eliminar archivos dentro de un directorio | `rm <nombre archivo>.txt` se usa para eliminar un archivo. Nota: hay que escribir el formato al final para eliminar el correcto. `rm <nombre archivo>.* -R` se utiliza para eliminar de manera recursiva  |
 | `top` | Ver el administrador de procesos en una terminal interactiva. |  Solo se necesita ejecutar `top` para visualizar los procesos. Para salir del administrador de procesos: *Ctrl + C*   |
 | `htop` | Ver administrador de procesos con colores en una terminal interactiva.  |  Comando para su instalacion: `sudo apt install htop`. Solo se necesita ejecutar `htop` para visualizar los procesos. Para salir del administrador de procesos: *Ctrl + C* |
 | `ps -aux` | Imprime en pantalla el estado de los procesos en el momento actual |  `ps -a`  |
@@ -61,7 +61,7 @@ Command List for Linux (Ubuntu, Manjaro, Docker, etc.) through VirtualBox 6
 | `network` | Content Cell  |  Content Cell  |
 | `vim` | Content Cell  |  Content Cell  |
 | `rmdir` | Eliminar permanentement directorios vacios  |  `rmdir <nombre directorio>` para eliminar un directorio en especifico, necesita tener los privilegios `sudo` para poder ejecutarse  |
-| `touch` | Content Cell  |  Content Cell  |
+| `touch` | Crear un documento vacio o generar o modificar una marca de tiempo en una linea de comando |  `touch <comando>` para ejecutar un comando que va a guardar en un documento, `touch <ruta archivo>` para cambiar la marca de tiempo de un archivo  |
 | `df` | Content Cell  |  Content Cell  |
 | `du` | Content Cell  |  Content Cell  |
 | `chmod` | Content Cell  |  Content Cell  |
