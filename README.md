@@ -11,8 +11,9 @@ Command List for Linux (Ubuntu, Manjaro, Docker, etc.) through VirtualBox 6
 | `pwd` | Muestra la ruta de un archivo, carpeta, o donde uno esta posicionado  |  Content Cell  |
 | `clear`  | Limpia la terminal, se elimina todo el contenido de la pantalla  |  Content Cell  |
 | `cd` | Change direction/cambiar directorio  |   `cd <ruta>` se usa para cambiar de un directorio a otro, mientras que `cd ..` es para devolverse |
-| nano | Crea documentos, editor de texto en consola |  `nano <nombre archivo>`.txt es para crear o editar achivos de texto. Este comando se puede usar para crear archivos de otros formatos (ej. *.sh, *.ps1)  |
-| cat | Content Cell  |  Content Cell  |
+| `nano` | Crea documentos, editor de texto en consola |  `nano <nombre archivo>.txt` es para crear o editar achivos de texto. Este comando se puede usar para crear archivos de otros formatos (ej. *.sh, *.ps1)  |
+| `cat` | Imprime el contenido del archivo, se utiliza para visualizar el contenido de un archivo  |  `cat <nombre archivo>.txt` se usa para imprimir en terminal el contenido de un archivo de texto  |
+| Content Cell | Content Cell  |  Content Cell  |
 | rm | Content Cell  |  Content Cell  |
 | rm -R | Content Cell  |  Content Cell  |
 | top | Content Cell  |  Content Cell  |
