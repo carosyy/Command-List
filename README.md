@@ -15,12 +15,26 @@ Command List for Linux (Ubuntu, Manjaro, Docker, etc.) through VirtualBox 6
 | `cat` | Imprime el contenido del archivo, se utiliza para visualizar el contenido de un archivo  |  `cat <nombre archivo>.txt` se usa para imprimir en terminal el contenido de un archivo de texto  |
 | `mkdir` | Crea carpetas/directorios nuevas |  `mkdir <nombre carpeta/directorio>` se usa para crear un directorio/carpeta en la ubicacion donde se encuentra, `mkdir <nombre carpeta/directorio> <ruta>` se usa para crear un carpeta/directorio en una ubicacion especifica |
 | `rm` | Eliminar archivos y carpetas/directorios | `rm <nombre archivo>.txt` se usa para eliminar un archivo. Nota: hay que escribir el formato al final para eliminar el correcto. `rm <nombre archivo>.* -R` se utiliza para eliminar de manera recursiva  |
-| rm -R | Content Cell  |  Content Cell  |
-| top | Content Cell  |  Content Cell  |
-| htop | Content Cell  |  Content Cell  |
-| ps -aux | Content Cell  |  Content Cell  |
-| pstree | Content Cell  |  Content Cell  |
-| kill | Content Cell  |  Content Cell  |
+| `top` | Content Cell  |  Content Cell  |
+| `htop` | Content Cell  |  Content Cell  |
+| `ps -aux` | Content Cell  |  Content Cell  |
+| `pstree` | Content Cell  |  Content Cell  |
+| `kill` | Content Cell  |  Content Cell  |
+| `ip a` | Content Cell  |  Content Cell  |
+| `&&` | Content Cell  |  Content Cell  |
+| `man` | Content Cell  |  Content Cell  |
+| `whoiam` | Content Cell  |  Content Cell  |
+| `exit` | Content Cell  |  Content Cell  |
+| `more` | Content Cell  |  Content Cell  |
+| `tail` | Content Cell  |  Content Cell  |
+| `head` | Content Cell  |  Content Cell  |
+| `cp` | Content Cell  |  Content Cell  |
+| `mv` | Content Cell  |  Content Cell  |
+| `adduser` | Content Cell  |  Content Cell  |
+| `passwd` | Content Cell  |  Content Cell  |
+| `history` | Content Cell  |  Content Cell  |
+| `grep` | Content Cell  |  Content Cell  |
+| `reboot` | Content Cell  |  Content Cell  |
 | Content Cell | Content Cell  |  Content Cell  |
 | Content Cell | Content Cell  |  Content Cell  |
 | Content Cell | Content Cell  |  Content Cell  |
@@ -30,3 +44,9 @@ Command List for Linux (Ubuntu, Manjaro, Docker, etc.) through VirtualBox 6
 | Content Cell | Content Cell  |  Content Cell  |
 | Content Cell | Content Cell  |  Content Cell  |
 | Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+| Content Cell | Content Cell  |  Content Cell  |
+
