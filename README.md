@@ -7,11 +7,10 @@ Command List for Linux (Ubuntu, Manjaro, Docker, etc.) through VirtualBox 6
 | ------------- | ------------- | ------------- |
 | `sudo` | Permite ejecutar cualquier programa como administrador  |  `sudo su` y `sudo -i` para pasar a modo administrativo/root, `sudo <comando>` para darle permisos de ejecucion en modo administrativo a un comando.  |
 | `ls`  | Muestra la lista de archivos y carpetas del directorio actual, imprime en pantalla las lista de las carpetas y archivos de la carpeta actual |  `ls -l` imprime los archivos en un formato de lista, `ls -a` imprime los archivos tanto visibles como ocultos  |
-| ls - l | Content Cell  |  Content Cell  |
-| ls - a | Content Cell  |  Content Cell  |
-| pwd | Content Cell  |  Content Cell  |
-| clear  | Content Cell  |  Content Cell  |
-| cd / | Content Cell  |  Content Cell  |
+| `/` | "Madre de carpetas", dentro de lash estan dentros todas las carpetas del sistema operativo |  Content Cell  |
+| `pwd` | Muestra la ruta de un archivo, carpeta, o donde uno esta posicionado  |  Content Cell  |
+| `clear`  | Limpia la terminal, se elimina todo el contenido de la pantalla  |  Content Cell  |
+| `cd` | Change direction/cambiar directorio  |  Content Cell  |
 | cd .. | Content Cell  |  Content Cell  |
 | nano | Content Cell  |  Content Cell  |
 | cat | Content Cell  |  Content Cell  |
