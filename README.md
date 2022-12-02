@@ -3,7 +3,7 @@
 # Command-List
 Command List for Linux (Ubuntu, Manjaro, Docker, etc.) through VirtualBox 6
 
-| Commando  | Descripción | Ejemplos de Uso | 
+| Commando  | Descripción | Sintaxis | 
 | ------------- | ------------- | ------------- |
 | `sudo` | Permite ejecutar cualquier programa como administrador  | `sudo su` y `sudo -i` para pasar a modo administrativo/root, `sudo <comando>` para darle permisos de ejecucion a un comando o programa.  |
 | `ls`  | Muestra la lista de archivos y carpetas del directorio actual, imprime en pantalla las lista de las carpetas y archivos de la carpeta actual |  `ls -l` imprime los archivos en un formato de lista, `ls -a` imprime los archivos tanto visibles como ocultos  |
@@ -20,15 +20,15 @@ Command List for Linux (Ubuntu, Manjaro, Docker, etc.) through VirtualBox 6
 | `ps -aux` | Imprime en pantalla el estado de los procesos en el momento actual |  `ps -a`  |
 | `pstree` | Muestra los procesos como arbol |  Content Cell  |
 | `kill` | Mata/Para procesos dentro del sistema operativo. Para quitar una app:s e busca el PID (process ID) y en la Terminal se escribe: `kill -9 (PID de la app a quitar)`  |  Content Cell  |
-| `ip a` | Content Cell  |  Content Cell  |
-| `&&` | Content Cell  |  Content Cell  |
-| `man` | Content Cell  |  Content Cell  |
-| `whoiam` | Content Cell  |  Content Cell  |
-| `exit` | Content Cell  |  Content Cell  |
-| `more` | Content Cell  |  Content Cell  |
-| `tail` | Content Cell  |  Content Cell  |
-| `head` | Content Cell  |  Content Cell  |
-| `cp` | Content Cell  |  Content Cell  |
+| `ip a` / `ip addr` | Muestra las direcciones IP que tienen el equipo |  Content Cell  |
+| `&&` | Se utiliza para ejecutar dos o más comandos uno tras otro  |  Content Cell  |
+| `man` | Manual de los comandos |  Content Cell  |
+| `whoiam` | Muestra cual usuario esta en control del equipo  |  Content Cell  |
+| `exit` | Sale de un usuario a otro |  Content Cell  |
+| `more` | Imprime en pantalla el contenido del archivo. Se utiliza para visualizar archivos largos  |  `more <nombre archivo.txt` para ver los contenidos de un documento largo  |
+| `tail` | Imprime en pantalla una el final de cierta cantidad de lineas de documentos largos. Solo funcionan con archivos de texto. |  `tail -n <numero> <ruta>` para visualizar las primeras lineas de un documento de acuerdo al numero ingresado  |
+| `head` | Imprime en pantalla una el principio de cierta cantidad de lineas de documentos largos.  Solo funcionan con archivos de texto.  |  `head -n <numero> <ruta>` para visualizar las ultimas lineas de un documento de acuerdo al numero ingresado |
+| `cp` | Copiar un archivo  |  `cp <nombre archivo original> <nombre archivo copia>` para hacer copias de un documento, tambien se puede ingresar la ruta a donde se quiere generar la copia.  |
 | `mv` | Content Cell  |  Content Cell  |
 | `adduser` | Content Cell  |  Content Cell  |
 | `passwd` | Content Cell  |  Content Cell  |
