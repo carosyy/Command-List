@@ -8,7 +8,7 @@ Command List for Linux (Ubuntu, Manjaro, Docker, etc.) through VirtualBox 6
 | `sudo` | Permite ejecutar cualquier programa como administrador  | `sudo su` y `sudo -i` para pasar a modo administrativo/root, `sudo <comando>` para darle permisos de ejecucion a un comando o programa.  |
 | `ls`  | Muestra la lista de archivos y carpetas del directorio actual, imprime en pantalla las lista de las carpetas y archivos de la carpeta actual |  `ls -l` imprime los archivos en un formato de lista, `ls -a` imprime los archivos tanto visibles como ocultos  |
 | `/` | "Madre de carpetas", dentro de lash estan dentros todas las carpetas del sistema operativo |  Content Cell  |
-| `pwd` | Muestra la ruta de un archivo, carpeta, o donde uno esta posicionado  |  Content Cell  |
+| `pwd` | Muestra la ruta de un archivo, carpeta, o donde uno esta posicionado  |  `pwd <opcion: -L o -P>` para encontrar la ruta en el dicrectorio que uno se encuentra actualmente.  |
 | `clear`  | Limpia la terminal, se elimina todo el contenido de la pantalla  |  Content Cell  |
 | `cd` | Change direction/cambiar directorio  |   `cd <ruta>` se usa para cambiar de un directorio a otro, mientras que `cd ..` es para devolverse |
 | `nano` | Crea documentos, editor de texto en consola |  `nano <nombre archivo>.txt` es para crear o editar achivos de texto. Este comando se puede usar para crear archivos de otros formatos (ej. *.sh, *.ps1)  |
