@@ -9,14 +9,14 @@ Command List for Linux (Ubuntu, Manjaro, Docker, etc.) through VirtualBox 6
 | `ls`  | Muestra la lista de archivos y carpetas del directorio actual, imprime en pantalla las lista de las carpetas y archivos de la carpeta actual |  `ls -l` imprime los archivos en un formato de lista, `ls -a` imprime los archivos tanto visibles como ocultos  |
 | `/` | "Madre de carpetas", dentro de lash estan dentros todas las carpetas del sistema operativo |  Content Cell  |
 | `pwd` | Muestra la ruta de un archivo, carpeta, o donde uno esta posicionado  |  `pwd <opcion: -L o -P>` para encontrar la ruta en el dicrectorio que uno se encuentra actualmente.  |
-| `clear`  | Limpia la terminal, se elimina todo el contenido de la pantalla  |  Content Cell  |
+| `clear`  | Limpia la terminal, se elimina todo el contenido de la pantalla  |  Solo se necesita ejecutar `clear` sin ningun comando o condicion para limpiar la terminal  |
 | `cd` | Change direction/cambiar directorio  |   `cd <ruta>` se usa para cambiar de un directorio a otro, mientras que `cd ..` es para devolverse |
 | `nano` | Crea documentos, editor de texto en consola |  `nano <nombre archivo>.txt` es para crear o editar achivos de texto. Este comando se puede usar para crear archivos de otros formatos (ej. *.sh, *.ps1)  |
 | `cat` | Imprime el contenido del archivo, se utiliza para visualizar el contenido de un archivo  |  `cat <nombre archivo>.txt` se usa para imprimir en terminal el contenido de un archivo de texto  |
 | `mkdir` | Crea carpetas/directorios nuevas |  `mkdir <nombre carpeta/directorio>` se usa para crear un directorio/carpeta en la ubicacion donde se encuentra, `mkdir <nombre carpeta/directorio> <ruta>` se usa para crear un carpeta/directorio en una ubicacion especifica |
 | `rm` | Eliminar archivos y carpetas/directorios | `rm <nombre archivo>.txt` se usa para eliminar un archivo. Nota: hay que escribir el formato al final para eliminar el correcto. `rm <nombre archivo>.* -R` se utiliza para eliminar de manera recursiva  |
-| `top` | Ver el administrador de procesos en una terminal interactiva. |  Solo hay necesidad de ejecutar `top` para visualizar los procesos. Para salir del administrador de procesos: *Ctrl + C*   |
-| `htop` | Ver administrador de procesos con colores en una terminal interactiva.  |  Comando para su instalacion: `sudo apt install htop`. Solo hay necesidad de ejecutar `htop` para visualizar los procesos. Para salir del administrador de procesos: *Ctrl + C* |
+| `top` | Ver el administrador de procesos en una terminal interactiva. |  Solo se necesita ejecutar `top` para visualizar los procesos. Para salir del administrador de procesos: *Ctrl + C*   |
+| `htop` | Ver administrador de procesos con colores en una terminal interactiva.  |  Comando para su instalacion: `sudo apt install htop`. Solo se necesita ejecutar `htop` para visualizar los procesos. Para salir del administrador de procesos: *Ctrl + C* |
 | `ps -aux` | Imprime en pantalla el estado de los procesos en el momento actual |  `ps -a`  |
 | `pstree` | Muestra los procesos como arbol |  Content Cell  |
 | `kill` | Mata/Para procesos dentro del sistema operativo.  |  Para quitar una app: se busca el PID (process ID) y en la Terminal se escribe: `kill -9 <PID de la app a quitar>`  |
@@ -38,7 +38,7 @@ Command List for Linux (Ubuntu, Manjaro, Docker, etc.) through VirtualBox 6
 | `sudo apt install` | Content Cell  |  Content Cell  |
 | `find` | Content Cell  |  Content Cell  |
 | `echo` | Content Cell  |  Content Cell  |
-| `>` | Content Cell  |  Content Cell  |
+| `>` | Se utiliza para convertir un comando a otro.  |  `ls > archivo.txt` es una ejemplo para que lo que imprime `ls` se guarde un archivo de texto. Tiene multiples usos y se puede combinar con otros comandos.  |
 | `scp` | Content Cell  |  Content Cell  |
 | `bash` | Content Cell  |  Content Cell  |
 | `zenity` | Content Cell  |  Content Cell  |
