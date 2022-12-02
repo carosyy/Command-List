@@ -28,11 +28,11 @@ Command List for Linux (Ubuntu, Manjaro, Docker, etc.) through VirtualBox 6
 | `more` | Imprime en pantalla el contenido del archivo. Se utiliza para visualizar archivos largos  |  `more <nombre archivo.txt` para ver los contenidos de un documento largo  |
 | `tail` | Imprime en pantalla una el final de cierta cantidad de lineas de documentos largos. Solo funcionan con archivos de texto. |  `tail -n <numero> <ruta>` para visualizar las primeras lineas de un documento de acuerdo al numero ingresado  |
 | `head` | Imprime en pantalla una el principio de cierta cantidad de lineas de documentos largos.  Solo funcionan con archivos de texto.  |  `head -n <numero> <ruta>` para visualizar las ultimas lineas de un documento de acuerdo al numero ingresado |
-| `cp` | Copiar un archivo  |  `cp <nombre archivo original> <nombre archivo copia>` para hacer copias de un documento, tambien se puede ingresar la ruta a donde se quiere generar la copia.  |
-| `mv` | Content Cell  |  Content Cell  |
-| `adduser` | Content Cell  |  Content Cell  |
-| `passwd` | Content Cell  |  Content Cell  |
-| `history` | Content Cell  |  Content Cell  |
+| `cp` | Copiar un archivo  |  `cp <nombre archivo original> <nombre archivo copia>` para hacer copias de un documento, `cp <nombre archivo> <ruta>` para hacer una copia en una ubicacion especifica |
+| `mv` | Mover un archivo a una carpeta  |  `mv <nombre archivo> <ruta>` para mover a un archivo o carpeta de un lugar a otro.  |
+| `adduser`  `useradd` | Crear un usuario  |  `adduser/useradd <nombre usuario` para crear un nuevo usuario  |
+| `passwd` | Cambiar la contraseña de un usuario |  ` sudo passwd <nombre usuario>` para cambiar la contraseña de un usuario en especifico  |
+| `history` | Muestra el historial de todos los comandos ejecutados desde el principio | Content Cell  |
 | `grep` | Content Cell  |  Content Cell  |
 | `reboot` | Content Cell  |  Content Cell  |
 | `sudo apt install` | Content Cell  |  Content Cell  |
