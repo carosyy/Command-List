@@ -3,7 +3,7 @@
 # Command-List
 Command List for Linux (Ubuntu, Manjaro, Docker, etc.) through VirtualBox 6
 
-| Commando  | Descripción | Sintaxis | 
+| Commando  | Descripción | Sintaxis |
 | ------------- | ------------- | ------------- |
 | `sudo` | Permite ejecutar cualquier programa como administrador  | `sudo su` y `sudo -i` para pasar a modo administrativo/root, `sudo <comando>` para darle permisos de ejecucion a un comando o programa.  |
 | `ls`  | Muestra la lista de archivos y carpetas del directorio actual, imprime en pantalla las lista de las carpetas y archivos de la carpeta actual |  `ls -l` imprime los archivos en un formato de lista, `ls -a` imprime los archivos tanto visibles como ocultos  |
@@ -15,11 +15,11 @@ Command List for Linux (Ubuntu, Manjaro, Docker, etc.) through VirtualBox 6
 | `cat` | Imprime el contenido del archivo, se utiliza para visualizar el contenido de un archivo  |  `cat <nombre archivo>.txt` se usa para imprimir en terminal el contenido de un archivo de texto  |
 | `mkdir` | Crea carpetas/directorios nuevas |  `mkdir <nombre carpeta/directorio>` se usa para crear un directorio/carpeta en la ubicacion donde se encuentra, `mkdir <nombre carpeta/directorio> <ruta>` se usa para crear un carpeta/directorio en una ubicacion especifica |
 | `rm` | Eliminar archivos y carpetas/directorios | `rm <nombre archivo>.txt` se usa para eliminar un archivo. Nota: hay que escribir el formato al final para eliminar el correcto. `rm <nombre archivo>.* -R` se utiliza para eliminar de manera recursiva  |
-| `top` | Ver el administrador de procesos en una terminal interactiva. Para salir del administrador de procesos: ctrl + c  |  Content Cell  |
-| `htop` | Comando para su instalacion: `sudo apt install htop`. Ver administrador de procesos con colores en una terminal interactiva. Para salir del administrador de procesos: ctrl + c |  Content Cell  |
+| `top` | Ver el administrador de procesos en una terminal interactiva. |  Solo hay necesidad de ejecutar `top` para visualizar los procesos. Para salir del administrador de procesos: *Ctrl + C*   |
+| `htop` | Ver administrador de procesos con colores en una terminal interactiva.  |  Comando para su instalacion: `sudo apt install htop`. Solo hay necesidad de ejecutar `htop` para visualizar los procesos. Para salir del administrador de procesos: *Ctrl + C* |
 | `ps -aux` | Imprime en pantalla el estado de los procesos en el momento actual |  `ps -a`  |
 | `pstree` | Muestra los procesos como arbol |  Content Cell  |
-| `kill` | Mata/Para procesos dentro del sistema operativo. Para quitar una app:s e busca el PID (process ID) y en la Terminal se escribe: `kill -9 (PID de la app a quitar)`  |  Content Cell  |
+| `kill` | Mata/Para procesos dentro del sistema operativo.  |  Para quitar una app: se busca el PID (process ID) y en la Terminal se escribe: `kill -9 <PID de la app a quitar>`  |
 | `ip a` / `ip addr` | Muestra las direcciones IP que tienen el equipo |  Content Cell  |
 | `&&` | Se utiliza para ejecutar dos o más comandos uno tras otro  |  Content Cell  |
 | `man` | Manual de los comandos |  Content Cell  |
