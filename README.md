@@ -52,7 +52,7 @@ Command List for Linux (Ubuntu, Manjaro, Docker, etc.) through VirtualBox 6
 | `unzip` | Extrae los archivos comprimidos de un archivo ZIP |  `unzip <option> <nombre archivo ZIP>.zip` para descomprimir un archivo o directorio |
 | `curl` | Content Cell  |  Content Cell  |
 | `wc` | Content Cell  |  Content Cell  |
-| `apt-get` | Content Cell  |  Content Cell  |
+| `apt-get` | Herramienta de línea de comandos para manejar las bibliotecas de Advanced Package Tool (APT)  |  `apt-get <opciones> <comando>` para descargar, administrar, actualizar, y eliminar algun software o aplicacion  |
 | `pwsh` | Content Cell  |  Content Cell  |
 | `quit` | Content Cell  |  Content Cell  |
 | `updatedb` | Content Cell  |  Content Cell  |
