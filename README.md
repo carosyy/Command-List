@@ -8,7 +8,7 @@ Command List for Linux (Ubuntu, Manjaro, Docker, etc.) through VirtualBox 6
 | `sudo` | Permite ejecutar cualquier programa como administrador  | `sudo su` y `sudo -i` para pasar a modo administrativo/root, `sudo <comando>` para darle permisos de ejecucion a un comando o programa.  |
 | `ls`  | Muestra la lista de archivos y carpetas del directorio actual, imprime en pantalla las lista de las carpetas y archivos de la carpeta actual |  `ls -l` imprime los archivos en un formato de lista, `ls -a` imprime los archivos tanto visibles como ocultos  |
 | `/` | "Madre de carpetas", dentro de lash estan dentros todas las carpetas del sistema operativo |  La ruta de todos los directorios empiezan con `/`  |
-| `pwd` | Muestra la ruta de un archivo, carpeta, o donde uno esta posicionado  |  `pwd <opcion: -L o -P>` para encontrar la ruta en el dicrectorio que uno se encuentra actualmente.  |
+| `pwd` | Muestra la ruta de un archivo, carpeta, o donde uno esta posicionado  |  `pwd <opciones: -L o -P>` para encontrar la ruta en el dicrectorio que uno se encuentra actualmente.  |
 | `clear`  | Limpia la terminal, se elimina todo el contenido de la pantalla  |  Solo se necesita ejecutar `clear` sin ningun comando o condicion para limpiar la terminal  |
 | `cd` | Change direction/cambiar directorio  |   `cd <ruta>` se usa para cambiar de un directorio a otro, mientras que `cd ..` es para devolverse |
 | `nano` | Crea documentos, editor de texto en consola |  `nano <nombre archivo>.txt` es para crear o editar achivos de texto. Este comando se puede usar para crear archivos de otros formatos (ej. *.sh, *.ps1)  |
@@ -22,7 +22,7 @@ Command List for Linux (Ubuntu, Manjaro, Docker, etc.) through VirtualBox 6
 | `kill` | Mata/Para procesos dentro del sistema operativo.  |  Para quitar una app: se busca el PID (process ID) y en la Terminal se escribe: `kill -9 <PID de la app a matar>`  |
 | `ip a` / `ip addr` | Muestra las direcciones IP que tienen el equipo | `ip a` y `ip addr` para visualizar la direccion IP  |
 | `&&` | Se utiliza para ejecutar dos o más comandos uno tras otro  |  `&&` para permitir que el siguiente comando solo se ejecute si el anterior es exitoso  |
-| `man` | Manual de usuario de cualquier comando o utilidad que pueda ejecutar en Terminal |  `man <opción> <número sección> <nombre comando>` para visualizar informacion de el comando que necesite usar |
+| `man` | Manual de usuario de cualquier comando o utilidad que pueda ejecutar en Terminal |  `man <opciones> <número sección> <nombre comando>` para visualizar informacion de el comando que necesite usar |
 | `whoami` | Muestra cual usuario esta en control del equipo  |  Solo se necesita ejecutar `whoami` sin ningun comando o condicion para ver el usuario que ha iniciado sesión actualmente  |
 | `exit` / `quit` | Salir de un usuario, del shell, o modo sudo | Solo se necesita ejecutar `exit` o `quit` salir de modo sudo, salir del shell o un usuario.  |
 | `more` | Imprime en pantalla el contenido del archivo. Se utiliza para visualizar archivos largos  |  `more <nombre archivo.txt` para ver los contenidos de un documento largo  |
@@ -30,50 +30,50 @@ Command List for Linux (Ubuntu, Manjaro, Docker, etc.) through VirtualBox 6
 | `head` | Imprime en pantalla una el principio de cierta cantidad de lineas de documentos largos.  Solo funcionan con archivos de texto.  |  `head -n <numero> <ruta>` para visualizar las ultimas lineas de un documento de acuerdo al numero ingresado |
 | `cp` | Copiar un archivo  |  `cp <nombre archivo original> <nombre archivo copia>` para hacer copias de un documento, `cp <nombre archivo> <ruta>` para hacer una copia en una ubicacion especifica |
 | `mv` | Mover un archivo a una carpeta  |  `mv <nombre archivo> <ruta>` para mover a un archivo o carpeta de un lugar a otro.  |
-| `adduser`  `useradd` | Crear un usuario  |  `sudo adduser/useradd <opcion> <nombre usuario>` para crear un nuevo usuario, debe tener privilegios `sudo`  |
+| `adduser`  `useradd` | Crear un usuario  |  `sudo adduser/useradd <opciones> <nombre usuario>` para crear un nuevo usuario, debe tener privilegios `sudo`  |
 | `passwd` | Cambiar la contraseña de un usuario |  `sudo passwd <nombre usuario>` para cambiar la contraseña de un usuario en especifico, debe tener privilegios `sudo` |
-| `history` | Muestra el historial de todos los comandos ejecutados desde el principio | Solo se necesita ejecutar `history <opcion>` para visualizar los comandos ejecutados desde el inicio  |
+| `history` | Muestra el historial de todos los comandos ejecutados desde el principio | Solo se necesita ejecutar `history <opciones>` para visualizar los comandos ejecutados desde el inicio  |
 | `grep` | Buscar un palabra entre el texto de un archivo especifico  |  `grep <palabra a buscar> <archivo de texto>` para buscar un palabra especifica en un archivo fijo |
 | `reboot` | Reinicia el equipo |  Solo se necesita ejecutar `reboot` sin ningun comando o condicion para reiniciar el equipo  |
 | `find` | Encontrar y filtrar archivos  |  `find <ruta directorio> <parametro a buscar>` para buscar un elemento siguiendo la ruta indicada  |
-| `echo` | Imprime lineas de texto en la terminal  |  `echo <opción> <cadena>` para imprimir lineas de texto en la terminal |
+| `echo` | Imprime lineas de texto en la terminal  |  `echo <opciones> <palabras>` para imprimir lineas de texto en la terminal |
 | `>` | Se utiliza para convertir un comando a otro.  |  `ls > archivo.txt` es una ejemplo para que lo que imprime `ls` se guarde un archivo de texto. Tiene multiples usos y se puede combinar con otros comandos.  |
 | `tar` | Archiva varios archivos en un archivo TAR, un formato común de Linux similar a ZIP  |  `tar <opciones> <archivo_archivo> <archivo o directorio a archivar>` para archivar en formato TAR  |
-| `wget` | Descargar archivos de Internet  |  `wget <opción> <URL>` para descargar un paquete o archivo de Internet |
+| `wget` | Descargar archivos de Internet  |  `wget <opciones> <URL>` para descargar un paquete o archivo de Internet |
 | `locate` | Buscar un archivo en un sistema de base de datos  |  `locate -i <palabra>` para buscar una palabra en especifico sin hacer distincion entre miniscula o mayuscula. Para buscar dos palabras a la vez, cada palabra se separa por un asterico (*)  |
 | `zip` | Comprime archivos en un archivo ZIP |  `zip <opciones> <nombre archivo ZIP>.zip <archivo(s)>` para comprimir un archivo o directorio |
-| `unzip` | Extrae los archivos comprimidos de un archivo ZIP |  `unzip <option> <nombre archivo ZIP>.zip` para descomprimir un archivo o directorio |
+| `unzip` | Extrae los archivos comprimidos de un archivo ZIP |  `unzip <opciones> <nombre archivo ZIP>.zip` para descomprimir un archivo o directorio |
 | `apt-get` / `apt` | Herramienta de línea de comandos para manejar las bibliotecas de Advanced Package Tool (APT)  |  `apt-get <opciones> <comando>` para descargar, administrar, actualizar, y eliminar algun software o aplicacion  |
-| `uname` | Imprime información detallada sobre el sistema y hardware |  `uname <opción>` para ver la informacion del sistema y hardware, `uname -a` para que imprima **toda** la informacion del sistema y hardward |
+| `uname` | Imprime información detallada sobre el sistema y hardware |  `uname <opciones>` para ver la informacion del sistema y hardware, `uname -a` para que imprima **toda** la informacion del sistema y hardward |
 | `rmdir` | Eliminar permanentement directorios vacios  |  `rmdir <nombre directorio>` para eliminar un directorio en especifico, necesita tener los privilegios `sudo` para poder ejecutarse  |
 | `touch` | Crear un documento vacio o generar o modificar una marca de tiempo en una linea de comando |  `touch <comando>` para ejecutar un comando que va a guardar en un documento, `touch <ruta archivo>` para cambiar la marca de tiempo de un archivo  |
 | `df` | Informa sobre el uso del espacio en disco del sistema  |  `df -h` para visualizar el uso del espacio en disco del sistema del directorio actual en un formato legible por humanos |
 | `du` | Verificar cuánto espacio ocupa un archivo o un directorio |  `du <ruta>` para verificar el espacio que ocupa un archivo o directorio  |
-| `chmod` | Modifica los permisos de lectura, escritura y ejecución de un archivo o directorio. Tomar en cuenta las tres clases de usuarios: propietario , miembro del grupo y otros. |  `chmod <opción> <permiso> <nombre_archivo>` para cambiar los permisos de un archivo o directorio segun los permisos de lectura, escritura, y ejecucion asignados.  |
-| `chown` | Permite cambiar la propiedad de un archivo o directorio a un nombre de usuario específico  |  `chown <opción> <propietario> <archivo o directorio>` para cambiar los permisos de ese archivo a un usuario especifico |
-| `su` | Ejecutar un programa como un usuario diferente  |  `su <opcion> <nombre de usuario>` para cambiar de un usuario a otro sin tener que salir de session |
-| `ping` | Comprobar si se puede acceder a una red o un servidor  |  `ping <opción> <hostname or IP address>` para verificar la conexion a internet o un servidor  |
+| `chmod` | Modifica los permisos de lectura, escritura y ejecución de un archivo o directorio. Tomar en cuenta las tres clases de usuarios: propietario , miembro del grupo y otros. |  `chmod <opciones> <permiso> <nombre_archivo>` para cambiar los permisos de un archivo o directorio segun los permisos de lectura, escritura, y ejecucion asignados.  |
+| `chown` | Permite cambiar la propiedad de un archivo o directorio a un nombre de usuario específico  |  `chown <opciones> <propietario> <archivo o directorio>` para cambiar los permisos de ese archivo a un usuario especifico |
+| `su` | Ejecutar un programa como un usuario diferente  |  `su <opciones> <nombre de usuario>` para cambiar de un usuario a otro sin tener que salir de session |
+| `ping` | Comprobar si se puede acceder a una red o un servidor  |  `ping <opciones> <hostname or IP address>` para verificar la conexion a internet o un servidor  |
 | `alias` | Crear un acceso directo o 'alias' con la misma funcionalidad que un comando o archivo de texto  |  `alias <palabra>=<comando>` para asignarle un alias a un comando, en vez de ejecutar con su nombre pretederminado, `unalias <nombre alias>` para remover el alias a ese comando o archivo de texto  |
 | `diff` | Compara dos contenidos de un archivo línea por línea  |  `diff <nombre archivo 1> <nombre archivo 2>` para comparar los contenidos de dos archivos en especifico  |
-| `git clone` | Línea de comandos de Git que se utiliza para apuntar a un repositorio existente y crear un clon o una copia del repositorio de destino  |  `git clone <opcion> <URL de Git>` para descargar repositorios que se encuenten en Github  |
-| `curl` | Línea de comandos para transferir datos hacia o desde un servidor, utilizando cualquiera de los protocolos admitidos (HTTP, FTP, IMAP, POP3, SCP, SFTP, SMTP, TFTP, TELNET, LDAP o FILE)  |  `curl <opcion> <URL>` para intercambiar informacion de equipo a un servidor  |
-| `wc` | calcula el recuento de palabras, líneas, caracteres o bytes de un archivo  |  `wc <opcion> <nombre archivo` para calcular el recuento de elementos en un archivo  |
+| `git clone` | Línea de comandos de Git que se utiliza para apuntar a un repositorio existente y crear un clon o una copia del repositorio de destino  |  `git clone <opciones> <URL de Git>` para descargar repositorios que se encuenten en Github  |
+| `curl` | Línea de comandos para transferir datos hacia o desde un servidor, utilizando cualquiera de los protocolos admitidos (HTTP, FTP, IMAP, POP3, SCP, SFTP, SMTP, TFTP, TELNET, LDAP o FILE)  |  `curl <opciones> <URL>` para intercambiar informacion de equipo a un servidor  |
+| `wc` | calcula el recuento de palabras, líneas, caracteres o bytes de un archivo  |  `wc <opciones> <nombre archivo` para calcular el recuento de elementos en un archivo  |
 | `pwsh` | Iniciar un instancia de Powershell, abrir la terminal de Powershell y ejecutar scripts con el formato .ps1  |  Solo se necesita ejecutar `pwsh` para ingresar a Powershell, `pwsh <nombre script>.ps1` para ejecutar un script de Powershell en la terminal  | 
-| `updatedb` | Crea o actualiza una base de datos utilizada por mlocate. Si la base de datos ya existe, sus datos se reutilizan para evitar volver a leer directorios que no han cambiado. Cron suele ejecutar dailyb para actualizar la base de datos predeterminada.  |  `updatedb <opcion>` para crear, revisar o actualizar datos, sin volver a tener que leer datos que ya estan cargados y no han sido modificados  |
-| `scp` | Línea de comandos que le permite copiar archivos y directorios de forma segura entre dos ubicaciones  |  `scp <opcion> <nombre achivo> <usuario@IP:/ruta/del/directorio>` para copiar documentos de manera remota a otro escritorio |
+| `updatedb` | Crea o actualiza una base de datos utilizada por mlocate. Si la base de datos ya existe, sus datos se reutilizan para evitar volver a leer directorios que no han cambiado. Cron suele ejecutar dailyb para actualizar la base de datos predeterminada.  |  `updatedb <opciones>` para crear, revisar o actualizar datos, sin volver a tener que leer datos que ya estan cargados y no han sido modificados  |
+| `scp` | Línea de comandos que le permite copiar archivos y directorios de forma segura entre dos ubicaciones  |  `scp <opciones> <nombre achivo> <usuario@IP:/ruta/del/directorio>` para copiar documentos de manera remota a otro escritorio |
 | `bash` | Conocido como Linux Bash Scripting es un shell de Unix que es un intérprete de lenguaje de comandos compatible con sh  |  `bash <nombre script>.sh` para ejecutar comandos en formato .sh en la terminal  |
-| `zenity` | Herramienta que muestra cuadros de diálogo en el terminal de Linux utilizando scripts de shell  |  `zenity <opcion>` para crear calendarios, notificacion, cajas de texto, etc.  |
-| `docker` | Plataforma de creación de contenedores que empaqueta su aplicación y todas sus dependencias en forma de un contenedor  |  `docker <options>` para crear, modificar, eliminar contenedors en Docker  |
-| `systemctl` | Línea de comandos de Linux que se utiliza para controlar y administrar systemd y servicios.  |  `systemctl <opcion> <comandos>` para revisar y controlar el systemd |
-| `ifconfig` | Se utiliza en el momento del arranque para configurar interfaces  |  `ifconfig <opcion> <nombre interfaz>` para modificar la interfaz de algun network |
+| `zenity` | Herramienta que muestra cuadros de diálogo en el terminal de Linux utilizando scripts de shell  |  `zenity <opciones>` para crear calendarios, notificacion, cajas de texto, etc.  |
+| `docker` | Plataforma de creación de contenedores que empaqueta su aplicación y todas sus dependencias en forma de un contenedor  |  `docker <opciones>` para crear, modificar, eliminar contenedors en Docker  |
+| `systemctl` | Línea de comandos de Linux que se utiliza para controlar y administrar systemd y servicios.  |  `systemctl <opciones> <comandos>` para revisar y controlar el systemd |
+| `ifconfig` | Se utiliza en el momento del arranque para configurar interfaces  |  `ifconfig <opciones> <nombre interfaz>` para modificar la interfaz de algun network |
 | `netstat` | Proporciona cifras estadísticas sobre diferentes interfaces que incluyen sockets abiertos, tablas de enrutamiento e información de conexión.   |  `netstat -p` para visualizar programas asociados al socket, `netstat -s` para obtener detalles de todos los puertos  |
-| `vim` | Crear un archivo nuevo, editar un archivo existente o simplemente leer un archivo.  |  `vim <argumentos> <opcion> <nombre archivo>` para crear o editar archivos que ejecutan un accion dentro del sistema  |
+| `vim` | Crear un archivo nuevo, editar un archivo existente o simplemente leer un archivo.  |  `vim <argumentos> <opciones> <nombre archivo>` para crear o editar archivos que ejecutan un accion dentro del sistema  |
 | `less` | Muestra el contenido de un archivo una pantalla a la vez  | `less <opciones> <ruta archivo>` para visualizar el contenido de un documento largo en hojas |
-| `dpkg` | Es una herramienta para instalar, compilar, eliminar y administrar paquetes de Debian  |  `dpkg <options> <nombre paquete .deb>` para interactuar con paquetes que contiene o se descargaron en el sistema  |
+| `dpkg` | Es una herramienta para instalar, compilar, eliminar y administrar paquetes de Debian  |  `dpkg <opciones> <nombre paquete .deb>` para interactuar con paquetes que contiene o se descargaron en el sistema  |
 | `fdisk` | Crear y manipular la tabla de particiones del disco  |  `fdisk <opciones> <dispositivo>` o `fdisk -l <dispositivo>` para visualizar las particiones del disco del sistema |
-| `ln` | Content Cell  |  Content Cell  |
-| `apcalc` | Content Cell  |  Content Cell  |
-| `nmap` | Content Cell  |  Content Cell  |
+| `ln` | Crear enlaces duros o suaves/blandos de archivos o directorios  |  `ln <ruta archivo/directorio> <nombre enlace duro>` para crear enlaces duros de un archivo o directorio, `ln -s <ruta archivo/directorio> <nombre enlace duro>` para crear enlaces suaves/blandos de un archivo o directorio  |
+| `apcalc` | Programa que nos permite realizar operaciones matemáticas desde una ventana de terminal  |  `calc <operacion>` para que el programa resuelva la operacion introducida  |
+| `nmap` | Línea de comandos de Linux para la exploración de redes y la auditoría de seguridad  |  Comando para su instalacion: `sudo apt-get install nmap`. `nmap <URL>` o `<IP>` para obtener informacion detallada de la red, puertos abiertos, IPs activadas, etc.  |
 | `nslookup` | Utilizado para consultas relacionadas con el Domain Name System (DNS)  |  `nslookup <nombre dominion>` para buscar relaciones con un servidor DNS  |
 | `dd` | Content Cell  |  Content Cell  |
 | `ffmpeg` | Content Cell  |  Content Cell  |
