@@ -1,9 +1,9 @@
 #NOTA: El repositorio se encontrara en constante modificación hasta el día de entrega.
 
-# Command-List
-Command List for Linux (Ubuntu, Manjaro, Docker, etc.) through VirtualBox 6
+# Lista-Comandos
+Lista de Comandos (Ubuntu, Manjaro, Docker, etc.) por VirtualBox 6
 
-| Commando  | Descripción | Sintaxis |
+| Comando  | Descripción | Sintaxis |
 | ------------- | ------------- | ------------- |
 | `sudo` | Permite ejecutar cualquier programa como administrador  | `sudo su` y `sudo -i` para pasar a modo administrativo/root, `sudo <comando>` para darle permisos de ejecucion a un comando o programa.  |
 | `ls`  | Muestra la lista de archivos y carpetas del directorio actual, imprime en pantalla las lista de las carpetas y archivos de la carpeta actual |  `ls -l` imprime los archivos en un formato de lista, `ls -a` imprime los archivos tanto visibles como ocultos  |
@@ -79,48 +79,60 @@ Command List for Linux (Ubuntu, Manjaro, Docker, etc.) through VirtualBox 6
 | `ffmpeg` |  Procesar archivos multimedia |  Comando para su instalacion: `sudo add-apt-repository universe` y `sudo apt install ffmpeg`. El comando `ffmpeg <opciones>` es para realizar muchas tareas de procesamiento de una manera simple |
 | `fdupes` | Encontrar y eliminar archivos duplicados  |  Comando para su instalacion: `sudo apt install fdupes`, `sudo dnf install fdupes`. El comando `fdupes <opciones> <ruta directorio>` para buscar archivos repetidos |
 | `shutdown` | Apagar o parar el sistema operativo  | `shutdown <opciones: --halt o --poweroff>` para que el sistema se detenga o se apague  |
+
+
+Lista de Ejemplos de Comandos
+| Commando  | Ejemplo |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell | Content Cell  |  
+| Content Cell | Content Cell  |  
+| Content Cell | Content Cell  |  
+| Content Cell | Content Cell  | 
+| Content Cell | Content Cell  |  
+| Content Cell | Content Cell  |  
+| Content Cell | Content Cell  |  
+| Content Cell | Content Cell  |  
+| Content Cell | Content Cell  |  
+| Content Cell | Content Cell  | 
+| Content Cell | Content Cell  |  
+| Content Cell | Content Cell  |  
+| Content Cell | Content Cell  |  
+| Content Cell | Content Cell  |  
+| Content Cell | Content Cell  |  
+| Content Cell | Content Cell  |  
+| Content Cell | Content Cell  |  
+| Content Cell | Content Cell  |  
+| Content Cell | Content Cell  |  
+| Content Cell | Content Cell  |  
+| Content Cell | Content Cell  |  
+| Content Cell | Content Cell  |  
+| Content Cell | Content Cell  |  
+| Content Cell | Content Cell  |  
+| Content Cell | Content Cell  |  
+| Content Cell | Content Cell  | 
+| Content Cell | Content Cell  |  
+| Content Cell | Content Cell  | 
+| Content Cell | Content Cell  |  
+| Content Cell | Content Cell  |  
+| Content Cell | Content Cell  |  
+| Content Cell | Content Cell  |  
+| Content Cell | Content Cell  |  
+| Content Cell | Content Cell  |  
+| Content Cell | Content Cell  |  
+| Content Cell | Content Cell  |  
+| Content Cell | Content Cell  |  
+| Content Cell | Content Cell  |  
+| Content Cell | Content Cell  |  
+| Content Cell | Content Cell  |  
+| Content Cell | Content Cell  |  
+| Content Cell | Content Cell  |  
+| Content Cell | Content Cell  |  
+
+FORMATO TABLA
+
+TRES
 | Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
+
+DOS
+| Content Cell | Content Cell  |
