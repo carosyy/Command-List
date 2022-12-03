@@ -18,13 +18,13 @@ Command List for Linux (Ubuntu, Manjaro, Docker, etc.) through VirtualBox 6
 | `top` | Ver el administrador de procesos en una terminal interactiva. |  Solo se necesita ejecutar `top` para visualizar los procesos. Para salir del administrador de procesos: *Ctrl + C*   |
 | `htop` | Ver administrador de procesos con colores en una terminal interactiva.  |  Comando para su instalacion: `sudo apt install htop`. Ejecutar `htop <opciones>` para visualizar los procesos. Para salir del administrador de procesos: *Ctrl + C* |
 | `ps` | Imprime en pantalla el estado de los procesos en el momento actual | `ps -aux` para visualizar todas los atributos de los procesos en ejecucacion |
-| `pstree` | Muestra los procesos como arbol |  Content Cell  |
+| `pstree` | Muestra los procesos como arbol |  `pstree` para visualizar los procesos en ejecucion en formato arbol  |
 | `kill` | Mata/Para procesos dentro del sistema operativo.  |  Para quitar una app: se busca el PID (process ID) y en la Terminal se escribe: `kill -9 <PID de la app a matar>`  |
-| `ip a` / `ip addr` | Muestra las direcciones IP que tienen el equipo |  Content Cell  |
+| `ip a` / `ip addr` | Muestra las direcciones IP que tienen el equipo | `ip a` y `ip addr` para visualizar la direccion IP  |
 | `&&` | Se utiliza para ejecutar dos o más comandos uno tras otro  |  `&&` para permitir que el siguiente comando solo se ejecute si el anterior es exitoso  |
 | `man` | Manual de usuario de cualquier comando o utilidad que pueda ejecutar en Terminal |  `man <opción> <número sección> <nombre comando>` para visualizar informacion de el comando que necesite usar |
-| `whoiam` | Muestra cual usuario esta en control del equipo  |  Content Cell  |
-| `exit` | Sale de un usuario a otro |  Content Cell  |
+| `whoami` | Muestra cual usuario esta en control del equipo  |  Solo se necesita ejecutar `whoami` sin ningun comando o condicion para ver el usuario que ha iniciado sesión actualmente  |
+| `exit` / `quit` | Salir de un usuario, del shell, o modo sudo | Solo se necesita ejecutar `exit` o `quit` salir de modo sudo, salir del shell o un usuario.  |
 | `more` | Imprime en pantalla el contenido del archivo. Se utiliza para visualizar archivos largos  |  `more <nombre archivo.txt` para ver los contenidos de un documento largo  |
 | `tail` | Imprime en pantalla una el final de cierta cantidad de lineas de documentos largos. Solo funcionan con archivos de texto. |  `tail -n <numero> <ruta>` para visualizar las primeras lineas de un documento de acuerdo al numero ingresado  |
 | `head` | Imprime en pantalla una el principio de cierta cantidad de lineas de documentos largos.  Solo funcionan con archivos de texto.  |  `head -n <numero> <ruta>` para visualizar las ultimas lineas de un documento de acuerdo al numero ingresado |
@@ -54,7 +54,6 @@ Command List for Linux (Ubuntu, Manjaro, Docker, etc.) through VirtualBox 6
 | `wc` | Content Cell  |  Content Cell  |
 | `apt-get` | Herramienta de línea de comandos para manejar las bibliotecas de Advanced Package Tool (APT)  |  `apt-get <opciones> <comando>` para descargar, administrar, actualizar, y eliminar algun software o aplicacion  |
 | `pwsh` | Content Cell  |  Content Cell  |
-| `quit` | Content Cell  |  Content Cell  |
 | `updatedb` | Content Cell  |  Content Cell  |
 | `uname` | Imprime información detallada sobre el sistema y hardware |  `uname <opción>` para ver la informacion del sistema y hardware, `uname -a` para que imprima **toda** la informacion del sistema y hardward |
 | `ifconfig` | Content Cell  |  Content Cell  |
