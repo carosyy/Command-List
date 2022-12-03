@@ -16,7 +16,7 @@ Command List for Linux (Ubuntu, Manjaro, Docker, etc.) through VirtualBox 6
 | `mkdir` | Crea carpetas/directorios nuevas |  `mkdir <nombre carpeta/directorio>` se usa para crear un directorio/carpeta en la ubicacion donde se encuentra, `mkdir <nombre carpeta/directorio> <ruta>` se usa para crear un carpeta/directorio en una ubicacion especifica |
 | `rm` | Eliminar archivos dentro de un directorio | `rm <nombre archivo>.txt` se usa para eliminar un archivo. Nota: hay que escribir el formato al final para eliminar el correcto. `rm <nombre archivo>.* -R` se utiliza para eliminar de manera recursiva  |
 | `top` | Ver el administrador de procesos en una terminal interactiva. |  Solo se necesita ejecutar `top` para visualizar los procesos. Para salir del administrador de procesos: *Ctrl + C*   |
-| `htop` | Ver administrador de procesos con colores en una terminal interactiva.  |  Comando para su instalacion: `sudo apt install htop`. Solo se necesita ejecutar `htop` para visualizar los procesos. Para salir del administrador de procesos: *Ctrl + C* |
+| `htop` | Ver administrador de procesos con colores en una terminal interactiva.  |  Comando para su instalacion: `sudo apt install htop`. Ejecutar `htop <opciones>` para visualizar los procesos. Para salir del administrador de procesos: *Ctrl + C* |
 | `ps -aux` | Imprime en pantalla el estado de los procesos en el momento actual |  `ps -a`  |
 | `pstree` | Muestra los procesos como arbol |  Content Cell  |
 | `kill` | Mata/Para procesos dentro del sistema operativo.  |  Para quitar una app: se busca el PID (process ID) y en la Terminal se escribe: `kill -9 <PID de la app a matar>`  |
@@ -66,7 +66,7 @@ Command List for Linux (Ubuntu, Manjaro, Docker, etc.) through VirtualBox 6
 | `du` | Verificar cuánto espacio ocupa un archivo o un directorio |  `du <ruta>` para verificar el espacio que ocupa un archivo o directorio  |
 | `chmod` | Modifica los permisos de lectura, escritura y ejecución de un archivo o directorio. Tomar en cuenta las tres clases de usuarios: propietario , miembro del grupo y otros. |  `chmod <opción> <permiso> <nombre_archivo>` para cambiar los permisos de un archivo o directorio segun los permisos de lectura, escritura, y ejecucion asignados.  |
 | `chown` | Permite cambiar la propiedad de un archivo o directorio a un nombre de usuario específico  |  `chown <opción> <propietario> <archivo o directorio>` para cambiar los permisos de ese archivo a un usuario especifico |
-| `su` | Content Cell  |  Content Cell  |
+| `su` | Ejecutar un programa como un usuario diferente  |  `su <opcion> <nombre de usuario>` para cambiar de un usuario a otro sin tener que salir de session |
 | `less` | Content Cell  |  Content Cell  |
 | `dpkg` | Content Cell  |  Content Cell  |
 | `ping` | Comprobar si se puede acceder a una red o un servidor  |  `ping <opción> <hostname or IP address>` para verificar la conexion a internet o un servidor  |
@@ -76,7 +76,7 @@ Command List for Linux (Ubuntu, Manjaro, Docker, etc.) through VirtualBox 6
 | `fdisk` | Content Cell  |  Content Cell  |
 | `ln` | Content Cell  |  Content Cell  |
 | `apcalc` | Content Cell  |  Content Cell  |
-| `alias` | Content Cell  |  Content Cell  |
+| `alias` | Crear un acceso directo o 'alias' con la misma funcionalidad que un comando o archivo de texto  |  `alias <palabra>=<comando>` para asignarle un alias a un comando, en vez de ejecutar con su nombre pretederminado, `unalias <nombre alias>` para remover el alias a ese comando o archivo de texto  |
 | `diff` | Compara dos contenidos de un archivo línea por línea  |  `diff <nombre archivo 1> <nombre archivo 2>` para comparar los contenidos de dos archivos en especifico  |
 | Content Cell | Content Cell  |  Content Cell  |
 | Content Cell | Content Cell  |  Content Cell  |
