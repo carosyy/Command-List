@@ -84,28 +84,28 @@ Lista de Comandos (Ubuntu, Manjaro, Docker, etc.) por VirtualBox 6
 Lista de Ejemplos de Comandos
 | Commando  | Ejemplo |
 | ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell | Content Cell  |  
-| Content Cell | Content Cell  |  
-| Content Cell | Content Cell  |  
-| Content Cell | Content Cell  | 
-| Content Cell | Content Cell  |  
-| Content Cell | Content Cell  |  
-| Content Cell | Content Cell  |  
-| Content Cell | Content Cell  |  
-| Content Cell | Content Cell  |  
-| Content Cell | Content Cell  | 
-| Content Cell | Content Cell  |  
-| Content Cell | Content Cell  |  
-| Content Cell | Content Cell  |  
-| Content Cell | Content Cell  |  
-| Content Cell | Content Cell  |  
-| Content Cell | Content Cell  |  
-| Content Cell | Content Cell  |  
-| Content Cell | Content Cell  |  
-| Content Cell | Content Cell  |  
-| Content Cell | Content Cell  |  
-| Content Cell | Content Cell  |  
+| **sudo** | `sudo su`, `sudo ./VBoxLinuxAdditions.run`  |
+| **apt/apt-get** | `apt install neofetch`, `sudo apt update`,`sudo apt install snapd`,`sudo snap install`, `sudo add-apt-repository ppa:numix/ppa -y`,`sudo apt install numix-icon-theme-circle`,`sudo apt install numix-gtk-theme`,  |  
+| **less** | `archivo largo | less` |  
+| **mv** | `mv HolaSemanal.txt Documents`  |  
+| **rm** | `rm random.txt`  | 
+| **more** | `ls -l / -R | more`  |  
+| **mkdir** | `mkdir diruno`  |  
+| **grep** | `ps -aux | grep “firefox”`, `grep -r "ulacit"`, |  
+| **alias** | `alias update='sudo yum update'`  |  
+| **scp** | `scp archivo.pdf mortasoft@192.168.1.184:/home/mortasoft/Documentos/archivo.pdf` | 
+| **curl** | `curl -X GET -L https://script.google.com/macros/s/AKfycby61tcPuNY3dw_3IYqNGFnR6Ei55MrLFPe_PHup_VMnGP07HeoRyIy5W8xlrheMB7vJ/exec?data=$nombre`  | 
+| **nano** | `nano archivo1.txt`  |  
+| **cd** | `cd U/dirdos` |  
+| **ls** | `ls /bin`  |  
+| **cat** | `cat archivo1.txt`  |  
+| **>** | `ls -la /bin > archivo1.txt`  |  
+| **cp** | `cp -rv /etc/a* $HOME/U/dir004 1> $HOME/U/dir003/dircuatro/archivo2.txt`  |  
+| **find** | `find pcolor`  |  
+| **kill** | `pkill colord`  |  
+| **echo** | `echo "Hola Mundo"`  |  
+| **systemctl** | `sudo systemctl restart httpd`  |  
+| **chown** | `chown -R 700 nicit /home/cmoraj577/U/dir003`  |  
 | Content Cell | Content Cell  |  
 | Content Cell | Content Cell  |  
 | Content Cell | Content Cell  |  
