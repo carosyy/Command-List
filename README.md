@@ -17,11 +17,11 @@ Command List for Linux (Ubuntu, Manjaro, Docker, etc.) through VirtualBox 6
 | `rm` | Eliminar archivos dentro de un directorio | `rm <nombre archivo>.txt` se usa para eliminar un archivo. Nota: hay que escribir el formato al final para eliminar el correcto. `rm <nombre archivo>.* -R` se utiliza para eliminar de manera recursiva  |
 | `top` | Ver el administrador de procesos en una terminal interactiva. |  Solo se necesita ejecutar `top` para visualizar los procesos. Para salir del administrador de procesos: *Ctrl + C*   |
 | `htop` | Ver administrador de procesos con colores en una terminal interactiva.  |  Comando para su instalacion: `sudo apt install htop`. Ejecutar `htop <opciones>` para visualizar los procesos. Para salir del administrador de procesos: *Ctrl + C* |
-| `ps -aux` | Imprime en pantalla el estado de los procesos en el momento actual |  `ps -a`  |
+| `ps` | Imprime en pantalla el estado de los procesos en el momento actual | `ps -aux` para visualizar todas los atributos de los procesos en ejecucacion |
 | `pstree` | Muestra los procesos como arbol |  Content Cell  |
 | `kill` | Mata/Para procesos dentro del sistema operativo.  |  Para quitar una app: se busca el PID (process ID) y en la Terminal se escribe: `kill -9 <PID de la app a matar>`  |
 | `ip a` / `ip addr` | Muestra las direcciones IP que tienen el equipo |  Content Cell  |
-| `&&` | Se utiliza para ejecutar dos o más comandos uno tras otro  |  Content Cell  |
+| `&&` | Se utiliza para ejecutar dos o más comandos uno tras otro  |  `&&` para permitir que el siguiente comando solo se ejecute si el anterior es exitoso  |
 | `man` | Manual de usuario de cualquier comando o utilidad que pueda ejecutar en Terminal |  `man <opción> <número sección> <nombre comando>` para visualizar informacion de el comando que necesite usar |
 | `whoiam` | Muestra cual usuario esta en control del equipo  |  Content Cell  |
 | `exit` | Sale de un usuario a otro |  Content Cell  |
