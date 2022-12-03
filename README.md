@@ -30,14 +30,14 @@ Command List for Linux (Ubuntu, Manjaro, Docker, etc.) through VirtualBox 6
 | `head` | Imprime en pantalla una el principio de cierta cantidad de lineas de documentos largos.  Solo funcionan con archivos de texto.  |  `head -n <numero> <ruta>` para visualizar las ultimas lineas de un documento de acuerdo al numero ingresado |
 | `cp` | Copiar un archivo  |  `cp <nombre archivo original> <nombre archivo copia>` para hacer copias de un documento, `cp <nombre archivo> <ruta>` para hacer una copia en una ubicacion especifica |
 | `mv` | Mover un archivo a una carpeta  |  `mv <nombre archivo> <ruta>` para mover a un archivo o carpeta de un lugar a otro.  |
-| `adduser`  `useradd` | Crear un usuario  |  `adduser/useradd <nombre usuario>` para crear un nuevo usuario  |
-| `passwd` | Cambiar la contraseña de un usuario |  ` sudo passwd <nombre usuario>` para cambiar la contraseña de un usuario en especifico  |
+| `adduser`  `useradd` | Crear un usuario  |  `sudo adduser/useradd <opcion> <nombre usuario>` para crear un nuevo usuario, debe tener privilegios `sudo`  |
+| `passwd` | Cambiar la contraseña de un usuario |  `sudo passwd <nombre usuario>` para cambiar la contraseña de un usuario en especifico, debe tener privilegios `sudo` |
 | `history` | Muestra el historial de todos los comandos ejecutados desde el principio | Solo se necesita ejecutar `history <opcion>` para visualizar los comandos ejecutados desde el inicio  |
 | `grep` | Buscar un palabra entre el texto de un archivo especifico  |  `grep <palabra a buscar> <archivo de texto>` para buscar un palabra especifica en un archivo fijo |
 | `reboot` | Reinicia el equipo |  Solo se necesita ejecutar `reboot` sin ningun comando o condicion para reiniciar el equipo  |
 | `apt install` | Content Cell  |  Content Cell  |
 | `find` | Content Cell  |  Content Cell  |
-| `echo` | Content Cell  |  Content Cell  |
+| `echo` | Imprime lineas de texto en la terminal  |  `echo <opción> <cadena>` para imprimir lineas de texto en la terminal |
 | `>` | Se utiliza para convertir un comando a otro.  |  `ls > archivo.txt` es una ejemplo para que lo que imprime `ls` se guarde un archivo de texto. Tiene multiples usos y se puede combinar con otros comandos.  |
 | `scp` | Content Cell  |  Content Cell  |
 | `bash` | Content Cell  |  Content Cell  |
@@ -48,8 +48,8 @@ Command List for Linux (Ubuntu, Manjaro, Docker, etc.) through VirtualBox 6
 | `git clone` | Content Cell  |  Content Cell  |
 | `wget` | Descargar archivos de Internet  |  `wget <opción> <URL>` para descargar un paquete o archivo de Internet |
 | `locate` | Buscar un archivo en un sistema de base de datos  |  `locate -i <palabra>` para buscar una palabra en especifico sin hacer distincion entre miniscula o mayuscula. Para buscar dos palabras a la vez, cada palabra se separa por un asterico (*)  |
-| `zip` | Content Cell  |  Content Cell  |
-| `unzip` | Content Cell  |  Content Cell  |
+| `zip` | Comprime archivos en un archivo ZIP |  `zip <opciones> <nombre archivo ZIP>.zip <archivo(s)>` para comprimir un archivo o directorio |
+| `unzip` | Extrae los archivos comprimidos de un archivo ZIP |  `unzip <option> <nombre archivo ZIP>.zip` para descomprimir un archivo o directorio |
 | `curl` | Content Cell  |  Content Cell  |
 | `wc` | Content Cell  |  Content Cell  |
 | `apt-get` | Content Cell  |  Content Cell  |
