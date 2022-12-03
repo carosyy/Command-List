@@ -91,7 +91,7 @@ Lista de Ejemplos de Comandos
 | **rm** | `rm random.txt`  | 
 | **more** | `ls -l / -R | more`  |  
 | **mkdir** | `mkdir diruno`  |  
-| **grep** | `ps -aux | grep “firefox”`, `grep -r "ulacit"`, |  
+| **grep** | `grep -r "ulacit"` |  
 | **alias** | `alias update='sudo yum update'`  |  
 | **scp** | `scp archivo.pdf mortasoft@192.168.1.184:/home/mortasoft/Documentos/archivo.pdf` | 
 | **curl** | `curl -X GET -L https://script.google.com/macros/s/AKfycby61tcPuNY3dw_3IYqNGFnR6Ei55MrLFPe_PHup_VMnGP07HeoRyIy5W8xlrheMB7vJ/exec?data=$nombre`  | 
@@ -106,7 +106,7 @@ Lista de Ejemplos de Comandos
 | **echo** | `echo "Hola Mundo"`  |  
 | **systemctl** | `sudo systemctl restart httpd`  |  
 | **chown** | `chown -R 700 nicit /home/cmoraj577/U/dir003`  |  
-| Content Cell | Content Cell  |  
+| **wget** | ``  |  
 | Content Cell | Content Cell  |  
 | Content Cell | Content Cell  |  
 | Content Cell | Content Cell  |  
