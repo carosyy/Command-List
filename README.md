@@ -67,8 +67,8 @@ Command List for Linux (Ubuntu, Manjaro, Docker, etc.) through VirtualBox 6
 | `systemctl` | Línea de comandos de Linux que se utiliza para controlar y administrar systemd y servicios.  |  `systemctl <opcion> <comandos>` para revisar y controlar el systemd |
 | `ifconfig` | Se utiliza en el momento del arranque para configurar interfaces  |  `ifconfig <opcion> <nombre interfaz>` para modificar la interfaz de algun network |
 | `netstat` | Proporciona cifras estadísticas sobre diferentes interfaces que incluyen sockets abiertos, tablas de enrutamiento e información de conexión.   |  `netstat -p` para visualizar programas asociados al socket, `netstat -s` para obtener detalles de todos los puertos  |
-| `vim` | Content Cell  |  Content Cell  |
-| `less` | Content Cell  |  Content Cell  |
+| `vim` | Crear un archivo nuevo, editar un archivo existente o simplemente leer un archivo.  |  `vim <argumentos> <opcion> <nombre archivo>` para crear o editar archivos que ejecutan un accion dentro del sistema  |
+| `less` | Muestra el contenido de un archivo una pantalla a la vez  | `less <opciones> <ruta archivo>` para visualizar el contenido de un documento largo en hojas |
 | `dpkg` | Content Cell  |  Content Cell  |
 | `fdisk` | Content Cell  |  Content Cell  |
 | `ln` | Content Cell  |  Content Cell  |
