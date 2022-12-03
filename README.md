@@ -85,23 +85,23 @@ Lista de Ejemplos de Comandos
 | Commando  | Ejemplo |
 | ------------- | ------------- |
 | **sudo** | `sudo su`, `sudo ./VBoxLinuxAdditions.run`  |
-| **apt/apt-get** | `apt install neofetch`, `sudo apt update`,`sudo apt install snapd`,`sudo snap install`, `sudo add-apt-repository ppa:numix/ppa -y`,`sudo apt install numix-icon-theme-circle`,`sudo apt install numix-gtk-theme`,`apt install locate`  |  
+| **apt/apt-get** | `apt install neofetch`, `sudo apt update`,`sudo apt install snapd`,`sudo snap install`, `sudo add-apt-repository ppa:numix/ppa -y`,`sudo apt install numix-icon-theme-circle`,`sudo apt install numix-gtk-theme`,`apt install locate`,`sudo apt-get install ocrfeeder tesseract-ocr tesseract-ocr-spa tesseract-ocr-eng gocr cuneiform ocropusocrad`  |  
 | **less** | `archivo largo | less` |  
 | **mv** | `mv HolaSemanal.txt Documents`  |  
 | **rm** | `rm random.txt`  | 
 | **more** | `ls -l / -R `|` more`  |  
 | **mkdir** | `mkdir diruno`  |  
-| **grep** | `grep -r "ulacit"`,`grep -r "mydomain.com" /etc/apache2/`,`grep -r "apache" /` |  
+| **grep** | `grep -r "ulacit"`,`grep -r "mydomain.com" /etc/apache2/`,`grep -r "apache" /`,`grep -r "mydomain.com" /etc/apache2/` |  
 | **alias** | `alias update='sudo yum update'`  |  
 | **scp** | `scp archivo.pdf mortasoft@192.168.1.184:/home/mortasoft/Documentos/archivo.pdf` | 
 | **curl** | `curl -X GET -L https://script.google.com/macros/s/AKfycby61tcPuNY3dw_3IYqNGFnR6Ei55MrLFPe_PHup_VMnGP07HeoRyIy5W8xlrheMB7vJ/exec?data=$nombre`  | 
 | **nano** | `nano archivo1.txt`  |  
 | **cd** | `cd U/dirdos` |  
 | **ls** | `ls /bin`,   |  
-| **cat** | `cat archivo1.txt`  |  
+| **cat** | `cat archivo1.txt`,`cat /proc/version | grep "Linux version"`,`cat /proc/cpuinfo | grep "model name"`  |  
 | **>** | `ls -la /bin > archivo1.txt`  |  
 | **cp** | `cp -rv /etc/a* $HOME/U/dir004 1> $HOME/U/dir003/dircuatro/archivo2.txt`  |  
-| **find** | `find pcolor`,`find /home/mortasoft/ -name index.html`  |  
+| **find** | `find pcolor`,`find /home/mortasoft/ -name index.html`,`find / -name foo 2>/dev/null`  |  
 | **kill** | `pkill colord`  |  
 | **echo** | `echo "Hola Mundo"`  |  
 | **systemctl** | `sudo systemctl restart httpd`  |  
@@ -113,15 +113,15 @@ Lista de Ejemplos de Comandos
 | **locate** | `locate index.html`,`locate syslog`  | 
 | **nmap** | `nmap 192.168.1.170`  |  
 | **nslookup** | `nslookup ulacit.ac.cr`,`nslookup apt install dnsutils`  | 
-| **netstat** | `netstat -ltp`  |  
+| **netstat** | `netstat -ltp`,`netstat -tulpn`  |  
 | **ping** | `ping apt install iputils`  |  
 | **df** | `df -h`  |  
 | **fdisk** | `sudo fdisk -l`  |  
-| **tar** | `tar -cvf myarchive.tar /home/mortasoft/Semana_09/` (Comprimir),`tar -xvf myarchive.tar -C /tmp/` (Descomprimir)  |  
-| Content Cell | Content Cell  |  
-| Content Cell | Content Cell  |  
-| Content Cell | Content Cell  |  
-| Content Cell | Content Cell  |  
+| **tar** | `tar -cvf myarchive.tar /home/mortasoft/Semana_09/` (Comprimir),`tar -xvf myarchive.tar -C /tmp/` (Descomprimir), `tar -xvf file.tar.gz`,`tar -xzvf projects.tar.gz -C /tmp/`  |  
+| **dd** | `dd if=/home/mortasoft/imagen.dd of=/dev/sde conv=notrunc &` (Hacer una imagen de disco),`sudo dd if=/dev/sdb1 of=/home/tecmint/Documents/Linux_Mint_19_XFCE.iso`,`sudo dd if=artful-desktop-amd64.iso of=/dev/sdd bs=1M status=progress`  |  
+| **ln** | `ln -s file link`  |  
+| **zip** | `zip comprimido.zip archivo.txt`  |  
+| **unzip** | `unzip comprimido.zip`  |  
 | Content Cell | Content Cell  |  
 | Content Cell | Content Cell  |  
 | Content Cell | Content Cell  |  
