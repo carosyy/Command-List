@@ -55,8 +55,8 @@ Command List for Linux (Ubuntu, Manjaro, Docker, etc.) through VirtualBox 6
 | `ping` | Comprobar si se puede acceder a una red o un servidor  |  `ping <opción> <hostname or IP address>` para verificar la conexion a internet o un servidor  |
 | `alias` | Crear un acceso directo o 'alias' con la misma funcionalidad que un comando o archivo de texto  |  `alias <palabra>=<comando>` para asignarle un alias a un comando, en vez de ejecutar con su nombre pretederminado, `unalias <nombre alias>` para remover el alias a ese comando o archivo de texto  |
 | `diff` | Compara dos contenidos de un archivo línea por línea  |  `diff <nombre archivo 1> <nombre archivo 2>` para comparar los contenidos de dos archivos en especifico  |
-| `git clone` | Content Cell  |  Content Cell  |
-| `curl` | Content Cell  |  Content Cell  |
+| `git clone` | Línea de comandos de Git que se utiliza para apuntar a un repositorio existente y crear un clon o una copia del repositorio de destino  |  `git clone <opcion> <URL de Git>` para descargar repositorios que se encuenten en Github  |
+| `curl` | Línea de comandos para transferir datos hacia o desde un servidor, utilizando cualquiera de los protocolos admitidos (HTTP, FTP, IMAP, POP3, SCP, SFTP, SMTP, TFTP, TELNET, LDAP o FILE)  |  `curl <opcion> <URL>` para intercambiar informacion de equipo a un servidor  |
 | `wc` | Content Cell  |  Content Cell  |
 | `pwsh` | Content Cell  |  Content Cell  |
 | `updatedb` | Content Cell  |  Content Cell  |
