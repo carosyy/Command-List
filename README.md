@@ -69,8 +69,8 @@ Command List for Linux (Ubuntu, Manjaro, Docker, etc.) through VirtualBox 6
 | `netstat` | Proporciona cifras estadísticas sobre diferentes interfaces que incluyen sockets abiertos, tablas de enrutamiento e información de conexión.   |  `netstat -p` para visualizar programas asociados al socket, `netstat -s` para obtener detalles de todos los puertos  |
 | `vim` | Crear un archivo nuevo, editar un archivo existente o simplemente leer un archivo.  |  `vim <argumentos> <opcion> <nombre archivo>` para crear o editar archivos que ejecutan un accion dentro del sistema  |
 | `less` | Muestra el contenido de un archivo una pantalla a la vez  | `less <opciones> <ruta archivo>` para visualizar el contenido de un documento largo en hojas |
-| `dpkg` | Content Cell  |  Content Cell  |
-| `fdisk` | Content Cell  |  Content Cell  |
+| `dpkg` | Es una herramienta para instalar, compilar, eliminar y administrar paquetes de Debian  |  `dpkg <options> <nombre paquete .deb>` para interactuar con paquetes que contiene o se descargaron en el sistema  |
+| `fdisk` | Crear y manipular la tabla de particiones del disco  |  `fdisk <opciones> <dispositivo>` o `fdisk -l <dispositivo>` para visualizar las particiones del disco del sistema |
 | `ln` | Content Cell  |  Content Cell  |
 | `apcalc` | Content Cell  |  Content Cell  |
 | `nmap` | Content Cell  |  Content Cell  |
