@@ -65,23 +65,20 @@ Command List for Linux (Ubuntu, Manjaro, Docker, etc.) through VirtualBox 6
 | `zenity` | Herramienta que muestra cuadros de diálogo en el terminal de Linux utilizando scripts de shell  |  `zenity <opcion>` para crear calendarios, notificacion, cajas de texto, etc.  |
 | `docker` | Plataforma de creación de contenedores que empaqueta su aplicación y todas sus dependencias en forma de un contenedor  |  `docker <options>` para crear, modificar, eliminar contenedors en Docker  |
 | `systemctl` | Línea de comandos de Linux que se utiliza para controlar y administrar systemd y servicios.  |  `systemctl <opcion> <comandos>` para revisar y controlar el systemd |
-| `ifconfig` | Content Cell  |  Content Cell  |
-| `network` | Content Cell  |  Content Cell  |
+| `ifconfig` | Se utiliza en el momento del arranque para configurar interfaces  |  `ifconfig <opcion> <nombre interfaz>` para modificar la interfaz de algun network |
+| `netstat` | Proporciona cifras estadísticas sobre diferentes interfaces que incluyen sockets abiertos, tablas de enrutamiento e información de conexión.   |  `netstat -p` para visualizar programas asociados al socket, `netstat -s` para obtener detalles de todos los puertos  |
 | `vim` | Content Cell  |  Content Cell  |
 | `less` | Content Cell  |  Content Cell  |
 | `dpkg` | Content Cell  |  Content Cell  |
-| `nmap` | Content Cell  |  Content Cell  |
-| `nslookup` | Content Cell  |  Content Cell  |
-| `netstat` | Content Cell  |  Content Cell  |
 | `fdisk` | Content Cell  |  Content Cell  |
 | `ln` | Content Cell  |  Content Cell  |
 | `apcalc` | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
+| `nmap` | Content Cell  |  Content Cell  |
+| `nslookup` | Utilizado para consultas relacionadas con el Domain Name System (DNS)  |  `nslookup <nombre dominion>` para buscar relaciones con un servidor DNS  |
+| `dd` | Content Cell  |  Content Cell  |
+| `ffmpeg` | Content Cell  |  Content Cell  |
+| `fdupes` | Content Cell  |  Content Cell  |
+| `shutdown now` | Content Cell  |  Content Cell  |
 | Content Cell | Content Cell  |  Content Cell  |
 | Content Cell | Content Cell  |  Content Cell  |
 | Content Cell | Content Cell  |  Content Cell  |
