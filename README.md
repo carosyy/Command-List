@@ -61,10 +61,10 @@ Command List for Linux (Ubuntu, Manjaro, Docker, etc.) through VirtualBox 6
 | `pwsh` | Iniciar un instancia de Powershell, abrir la terminal de Powershell y ejecutar scripts con el formato .ps1  |  Solo se necesita ejecutar `pwsh` para ingresar a Powershell, `pwsh <nombre script>.ps1` para ejecutar un script de Powershell en la terminal  | 
 | `updatedb` | Crea o actualiza una base de datos utilizada por mlocate. Si la base de datos ya existe, sus datos se reutilizan para evitar volver a leer directorios que no han cambiado. Cron suele ejecutar dailyb para actualizar la base de datos predeterminada.  |  `updatedb <opcion>` para crear, revisar o actualizar datos, sin volver a tener que leer datos que ya estan cargados y no han sido modificados  |
 | `scp` | Línea de comandos que le permite copiar archivos y directorios de forma segura entre dos ubicaciones  |  `scp <opcion> <nombre achivo> <usuario@IP:/ruta/del/directorio>` para copiar documentos de manera remota a otro escritorio |
-| `bash` | Content Cell  |  Content Cell  |
-| `zenity` | Content Cell  |  Content Cell  |
-| `docker` | Content Cell  |  Content Cell  |
-| `systemctl` | Content Cell  |  Content Cell  |
+| `bash` | Conocido como Linux Bash Scripting es un shell de Unix que es un intérprete de lenguaje de comandos compatible con sh  |  `bash <nombre script>.sh` para ejecutar comandos en formato .sh en la terminal  |
+| `zenity` | Herramienta que muestra cuadros de diálogo en el terminal de Linux utilizando scripts de shell  |  `zenity <opcion>` para crear calendarios, notificacion, cajas de texto, etc.  |
+| `docker` | Plataforma de creación de contenedores que empaqueta su aplicación y todas sus dependencias en forma de un contenedor  |  `docker <options>` para crear, modificar, eliminar contenedors en Docker  |
+| `systemctl` | Línea de comandos de Linux que se utiliza para controlar y administrar systemd y servicios.  |  `systemctl <opcion> <comandos>` para revisar y controlar el systemd |
 | `ifconfig` | Content Cell  |  Content Cell  |
 | `network` | Content Cell  |  Content Cell  |
 | `vim` | Content Cell  |  Content Cell  |
