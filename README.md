@@ -19,10 +19,10 @@ Command List for Linux (Ubuntu, Manjaro, Docker, etc.) through VirtualBox 6
 | `htop` | Ver administrador de procesos con colores en una terminal interactiva.  |  Comando para su instalacion: `sudo apt install htop`. Solo se necesita ejecutar `htop` para visualizar los procesos. Para salir del administrador de procesos: *Ctrl + C* |
 | `ps -aux` | Imprime en pantalla el estado de los procesos en el momento actual |  `ps -a`  |
 | `pstree` | Muestra los procesos como arbol |  Content Cell  |
-| `kill` | Mata/Para procesos dentro del sistema operativo.  |  Para quitar una app: se busca el PID (process ID) y en la Terminal se escribe: `kill -9 <PID de la app a quitar>`  |
+| `kill` | Mata/Para procesos dentro del sistema operativo.  |  Para quitar una app: se busca el PID (process ID) y en la Terminal se escribe: `kill -9 <PID de la app a matar>`  |
 | `ip a` / `ip addr` | Muestra las direcciones IP que tienen el equipo |  Content Cell  |
 | `&&` | Se utiliza para ejecutar dos o más comandos uno tras otro  |  Content Cell  |
-| `man` | Manual de los comandos |  Content Cell  |
+| `man` | Manual de usuario de cualquier comando o utilidad que pueda ejecutar en Terminal |  `man <opción> <número sección> <nombre comando>` para visualizar informacion de el comando que necesite usar |
 | `whoiam` | Muestra cual usuario esta en control del equipo  |  Content Cell  |
 | `exit` | Sale de un usuario a otro |  Content Cell  |
 | `more` | Imprime en pantalla el contenido del archivo. Se utiliza para visualizar archivos largos  |  `more <nombre archivo.txt` para ver los contenidos de un documento largo  |
@@ -32,7 +32,7 @@ Command List for Linux (Ubuntu, Manjaro, Docker, etc.) through VirtualBox 6
 | `mv` | Mover un archivo a una carpeta  |  `mv <nombre archivo> <ruta>` para mover a un archivo o carpeta de un lugar a otro.  |
 | `adduser`  `useradd` | Crear un usuario  |  `adduser/useradd <nombre usuario>` para crear un nuevo usuario  |
 | `passwd` | Cambiar la contraseña de un usuario |  ` sudo passwd <nombre usuario>` para cambiar la contraseña de un usuario en especifico  |
-| `history` | Muestra el historial de todos los comandos ejecutados desde el principio | Solo se necesita ejecutar `history` sin ningun comando o condicion para visualizar los comandos ejecutados desde el inicio  |
+| `history` | Muestra el historial de todos los comandos ejecutados desde el principio | Solo se necesita ejecutar `history <opcion>` para visualizar los comandos ejecutados desde el inicio  |
 | `grep` | Buscar un palabra entre el texto de un archivo especifico  |  `grep <palabra a buscar> <archivo de texto>` para buscar un palabra especifica en un archivo fijo |
 | `reboot` | Reinicia el equipo |  Solo se necesita ejecutar `reboot` sin ningun comando o condicion para reiniciar el equipo  |
 | `apt install` | Content Cell  |  Content Cell  |
@@ -46,7 +46,7 @@ Command List for Linux (Ubuntu, Manjaro, Docker, etc.) through VirtualBox 6
 | `systemctl` | Content Cell  |  Content Cell  |
 | `tar` | Archiva varios archivos en un archivo TAR, un formato común de Linux similar a ZIP  |  `tar <opciones> <archivo_archivo> <archivo o directorio a archivar>` para archivar en formato TAR  |
 | `git clone` | Content Cell  |  Content Cell  |
-| `wget` | Content Cell  |  Content Cell  |
+| `wget` | Descargar archivos de Internet  |  `wget <opción> <URL>` para descargar un paquete o archivo de Internet |
 | `locate` | Buscar un archivo en un sistema de base de datos  |  `locate -i <palabra>` para buscar una palabra en especifico sin hacer distincion entre miniscula o mayuscula. Para buscar dos palabras a la vez, cada palabra se separa por un asterico (*)  |
 | `zip` | Content Cell  |  Content Cell  |
 | `unzip` | Content Cell  |  Content Cell  |
@@ -56,7 +56,7 @@ Command List for Linux (Ubuntu, Manjaro, Docker, etc.) through VirtualBox 6
 | `pwsh` | Content Cell  |  Content Cell  |
 | `quit` | Content Cell  |  Content Cell  |
 | `updatedb` | Content Cell  |  Content Cell  |
-| `uname` | Content Cell  |  Content Cell  |
+| `uname` | Imprime información detallada sobre el sistema y hardware |  `uname <opción>` para ver la informacion del sistema y hardware, `uname -a` para que imprima **toda** la informacion del sistema y hardward |
 | `ifconfig` | Content Cell  |  Content Cell  |
 | `network` | Content Cell  |  Content Cell  |
 | `vim` | Content Cell  |  Content Cell  |
@@ -69,7 +69,7 @@ Command List for Linux (Ubuntu, Manjaro, Docker, etc.) through VirtualBox 6
 | `su` | Content Cell  |  Content Cell  |
 | `less` | Content Cell  |  Content Cell  |
 | `dpkg` | Content Cell  |  Content Cell  |
-| `ping` | Content Cell  |  Content Cell  |
+| `ping` | Comprobar si se puede acceder a una red o un servidor  |  `ping <opción> <hostname or IP address>` para verificar la conexion a internet o un servidor  |
 | `nmap` | Content Cell  |  Content Cell  |
 | `nslookup` | Content Cell  |  Content Cell  |
 | `netstat` | Content Cell  |  Content Cell  |
