@@ -74,11 +74,11 @@ Command List for Linux (Ubuntu, Manjaro, Docker, etc.) through VirtualBox 6
 | `ln` | Crear enlaces duros o suaves/blandos de archivos o directorios  |  `ln <ruta archivo/directorio> <nombre enlace duro>` para crear enlaces duros de un archivo o directorio, `ln -s <ruta archivo/directorio> <nombre enlace duro>` para crear enlaces suaves/blandos de un archivo o directorio  |
 | `apcalc` | Programa que nos permite realizar operaciones matemáticas desde una ventana de terminal  |  `calc <operacion>` para que el programa resuelva la operacion introducida  |
 | `nmap` | Línea de comandos de Linux para la exploración de redes y la auditoría de seguridad  |  Comando para su instalacion: `sudo apt-get install nmap`. `nmap <URL>` o `<IP>` para obtener informacion detallada de la red, puertos abiertos, IPs activadas, etc.  |
-| `nslookup` | Utilizado para consultas relacionadas con el Domain Name System (DNS)  |  `nslookup <nombre dominion>` para buscar relaciones con un servidor DNS  |
-| `dd` | Content Cell  |  Content Cell  |
-| `ffmpeg` | Content Cell  |  Content Cell  |
-| `fdupes` | Content Cell  |  Content Cell  |
-| `shutdown now` | Content Cell  |  Content Cell  |
+| `nslookup` | Utilizado para consultas relacionadas con el Domain Name System (DNS)  |  `nslookup <nombre dominio>` para buscar relaciones con un servidor DNS  |
+| `dd` | Convertir y copiar archivos |  `dd <opciones>` para hacer copias de seguridad para archivos importantes del sistema operativo  |
+| `ffmpeg` |  Procesar archivos multimedia |  Comando para su instalacion: `sudo add-apt-repository universe` y `sudo apt install ffmpeg`. El comando `ffmpeg <opciones>` es para realizar muchas tareas de procesamiento de una manera simple |
+| `fdupes` | Encontrar y eliminar archivos duplicados  |  Comando para su instalacion: `sudo apt install fdupes`, `sudo dnf install fdupes`. El comando `fdupes <opciones> <ruta directorio>` para buscar archivos repetidos |
+| `shutdown` | Apagar o parar el sistema operativo  | `shutdown <opciones: --halt o --poweroff>` para que el sistema se detenga o se apague  |
 | Content Cell | Content Cell  |  Content Cell  |
 | Content Cell | Content Cell  |  Content Cell  |
 | Content Cell | Content Cell  |  Content Cell  |
