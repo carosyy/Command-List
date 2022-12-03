@@ -85,39 +85,39 @@ Lista de Ejemplos de Comandos
 | Commando  | Ejemplo |
 | ------------- | ------------- |
 | **sudo** | `sudo su`, `sudo ./VBoxLinuxAdditions.run`  |
-| **apt/apt-get** | `apt install neofetch`, `sudo apt update`,`sudo apt install snapd`,`sudo snap install`, `sudo add-apt-repository ppa:numix/ppa -y`,`sudo apt install numix-icon-theme-circle`,`sudo apt install numix-gtk-theme`,  |  
+| **apt/apt-get** | `apt install neofetch`, `sudo apt update`,`sudo apt install snapd`,`sudo snap install`, `sudo add-apt-repository ppa:numix/ppa -y`,`sudo apt install numix-icon-theme-circle`,`sudo apt install numix-gtk-theme`,`apt install locate`  |  
 | **less** | `archivo largo | less` |  
 | **mv** | `mv HolaSemanal.txt Documents`  |  
 | **rm** | `rm random.txt`  | 
-| **more** | `ls -l / -R | more`  |  
+| **more** | `ls -l / -R `|` more`  |  
 | **mkdir** | `mkdir diruno`  |  
-| **grep** | `grep -r "ulacit"` |  
+| **grep** | `grep -r "ulacit"`,`grep -r "mydomain.com" /etc/apache2/`,`grep -r "apache" /` |  
 | **alias** | `alias update='sudo yum update'`  |  
 | **scp** | `scp archivo.pdf mortasoft@192.168.1.184:/home/mortasoft/Documentos/archivo.pdf` | 
 | **curl** | `curl -X GET -L https://script.google.com/macros/s/AKfycby61tcPuNY3dw_3IYqNGFnR6Ei55MrLFPe_PHup_VMnGP07HeoRyIy5W8xlrheMB7vJ/exec?data=$nombre`  | 
 | **nano** | `nano archivo1.txt`  |  
 | **cd** | `cd U/dirdos` |  
-| **ls** | `ls /bin`  |  
+| **ls** | `ls /bin`,   |  
 | **cat** | `cat archivo1.txt`  |  
 | **>** | `ls -la /bin > archivo1.txt`  |  
 | **cp** | `cp -rv /etc/a* $HOME/U/dir004 1> $HOME/U/dir003/dircuatro/archivo2.txt`  |  
-| **find** | `find pcolor`  |  
+| **find** | `find pcolor`,`find /home/mortasoft/ -name index.html`  |  
 | **kill** | `pkill colord`  |  
 | **echo** | `echo "Hola Mundo"`  |  
 | **systemctl** | `sudo systemctl restart httpd`  |  
 | **chown** | `chown -R 700 nicit /home/cmoraj577/U/dir003`  |  
-| **wget** | ``  |  
-| Content Cell | Content Cell  |  
-| Content Cell | Content Cell  |  
-| Content Cell | Content Cell  |  
-| Content Cell | Content Cell  | 
-| Content Cell | Content Cell  |  
-| Content Cell | Content Cell  | 
-| Content Cell | Content Cell  |  
-| Content Cell | Content Cell  |  
-| Content Cell | Content Cell  |  
-| Content Cell | Content Cell  |  
-| Content Cell | Content Cell  |  
+| **wget** | `wget https://wordpress.org/latest.zip`, `wget -qO- https://git.io/papirus-icon-theme-install`  |  
+| **wc** | `wc /var/log/syslog`,`wc /var/log/syslog -l`,`wc /var/log/syslog -w`,`wc /var/log/syslog -m`  |  
+| **head** | `head /var/log/syslog -n 3`  |  
+| **tail** | `tail /var/log/syslog -n 3`,`tail archivo.txt -f` |  
+| **locate** | `locate index.html`,`locate syslog`  | 
+| **nmap** | `nmap 192.168.1.170`  |  
+| **nslookup** | `nslookup ulacit.ac.cr`,`nslookup apt install dnsutils`  | 
+| **netstat** | `netstat -ltp`  |  
+| **ping** | `ping apt install iputils`  |  
+| **df** | `df -h`  |  
+| **fdisk** | `sudo fdisk -l`  |  
+| **tar** | `tar -cvf myarchive.tar /home/mortasoft/Semana_09/` (Comprimir),`tar -xvf myarchive.tar -C /tmp/` (Descomprimir)  |  
 | Content Cell | Content Cell  |  
 | Content Cell | Content Cell  |  
 | Content Cell | Content Cell  |  
