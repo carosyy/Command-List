@@ -84,27 +84,27 @@ Lista de Comandos (Ubuntu, Manjaro, Docker, etc.) por VirtualBox 6
 Lista de Ejemplos de Comandos
 | Commando  | Ejemplo |
 | ------------- | ------------- |
-| **sudo** | `sudo su`, `sudo ./VBoxLinuxAdditions.run`  |
-| **apt/apt-get** | `apt install neofetch`, `sudo apt update`,`sudo apt install snapd`,`sudo snap install`, `sudo add-apt-repository ppa:numix/ppa -y`,`sudo apt install numix-icon-theme-circle`,`sudo apt install numix-gtk-theme`,`apt install locate`,`sudo apt-get install ocrfeeder tesseract-ocr tesseract-ocr-spa tesseract-ocr-eng gocr cuneiform ocropusocrad`  |  
-| **less** | `archivo largo | less` |  
+| **sudo** | `sudo su`, `sudo ./VBoxLinuxAdditions.run`,  |
+| **apt/apt-get** | `apt install neofetch`, `sudo apt update`,`sudo apt install snapd`,`sudo snap install`, `sudo add-apt-repository ppa:numix/ppa -y`,`sudo apt install numix-icon-theme-circle`,`sudo apt install numix-gtk-theme`,`apt install locate`,`sudo apt-get install ocrfeeder tesseract-ocr tesseract-ocr-spa tesseract-ocr-eng gocr cuneiform ocropusocrad`,`sudo apt -y install flameshot`  |  
+| **less** | ``archivo largo | less`` |  
 | **mv** | `mv HolaSemanal.txt Documents`  |  
 | **rm** | `rm random.txt`  | 
 | **more** | `ls -l / -R `|` more`  |  
-| **mkdir** | `mkdir diruno`  |  
+| **mkdir** | `mkdir diruno`,`mkdir PComandos/tmp/Sistemas/Operativos/Semana/3`  |  
 | **grep** | `grep -r "ulacit"`,`grep -r "mydomain.com" /etc/apache2/`,`grep -r "apache" /`,`grep -r "mydomain.com" /etc/apache2/` |  
 | **alias** | `alias update='sudo yum update'`  |  
-| **scp** | `scp archivo.pdf mortasoft@192.168.1.184:/home/mortasoft/Documentos/archivo.pdf` | 
+| **scp** | `scp archivo.pdf mortasoft@192.168.1.184:/home/mortasoft/Documentos/archivo.pdf`,`scp pruebaU.txt cmoraj577@192.168.100.195:/home/cmoraj577/Desktop/` | 
 | **curl** | `curl -X GET -L https://script.google.com/macros/s/AKfycby61tcPuNY3dw_3IYqNGFnR6Ei55MrLFPe_PHup_VMnGP07HeoRyIy5W8xlrheMB7vJ/exec?data=$nombre`  | 
-| **nano** | `nano archivo1.txt`  |  
+| **nano** | `nano archivo1.txt`,`nano /svr/html/index.html`,`nano apache`  |  
 | **cd** | `cd U/dirdos` |  
-| **ls** | `ls /bin`,   |  
+| **ls** | `ls /bin`, `ls -l $HOME 1> $HOME/dir003/dircuatro/archivo3.txt`  |  
 | **cat** | `cat archivo1.txt`,`cat /proc/version | grep "Linux version"`,`cat /proc/cpuinfo | grep "model name"`  |  
 | **>** | `ls -la /bin > archivo1.txt`  |  
-| **cp** | `cp -rv /etc/a* $HOME/U/dir004 1> $HOME/U/dir003/dircuatro/archivo2.txt`  |  
+| **cp** | `cp -rv /etc/a* $HOME/U/dir004 1> $HOME/U/dir003/dircuatro/archivo2.txt`,`cp /etc/profile $HOME/dir003/dircuatro/`  |  
 | **find** | `find pcolor`,`find /home/mortasoft/ -name index.html`,`find / -name foo 2>/dev/null`  |  
 | **kill** | `pkill colord`  |  
-| **echo** | `echo "Hola Mundo"`  |  
-| **systemctl** | `sudo systemctl restart httpd`  |  
+| **echo** | `echo "Hola Mundo"`,`echo /tmp/Sistemas/Operativos/Semana/3 /opt/datos/ubuntu | xargs -n 1 cp '/run/initramfs/fsck.log'`  |  
+| **systemctl** | `sudo systemctl restart httpd`,`sudo systemctl start docker`,`sudo systemctl enable docker`,`sudo systemctl status docker`  |  
 | **chown** | `chown -R 700 nicit /home/cmoraj577/U/dir003`  |  
 | **wget** | `wget https://wordpress.org/latest.zip`, `wget -qO- https://git.io/papirus-icon-theme-install`  |  
 | **wc** | `wc /var/log/syslog`,`wc /var/log/syslog -l`,`wc /var/log/syslog -w`,`wc /var/log/syslog -m`  |  
@@ -122,12 +122,44 @@ Lista de Ejemplos de Comandos
 | **ln** | `ln -s file link`  |  
 | **zip** | `zip comprimido.zip archivo.txt`  |  
 | **unzip** | `unzip comprimido.zip`  |  
+| **pacman** (gestor de paquetes Manjaro) | `sudo pacman -Syuu`,`sudo pacman -S unrar zip unzip p7zip gzip bzip2`,`sudo pacman -S yay`,`sudo yay -S --needed base-devel`,`sudo pacman -S apache`,`sudo pacman -S cronie`, `sudo pacman -S neofetch`  |  
+| **yay** | `yay -S google-chrome`  |  
+| **uname** | `uname -a`  |  
+| **adduser / useradd** | `sudo useradd -m nombredeusuario -G wheel -p passworddelusuario`  |  
+| **ps** | `ps -aux`, `ps -a`  |  
+| **crontab** | `crontab -e`  | 
+| **chmod** | `chmod ugo+x HolaSemanal.sh`  |  
+| **dpkg** | `sudo dpkg -i code_1.71.2-1663191218_amd64.deb`  |  
+| **docker**   | Content Cell  |  
+| **man** | `man find`  |  
+| **mount** | `sudo mount -t ext4 /dev/md/RAID5\:raid5 /media/RAID5`,`sudo mount -t ext4 /dev/md/RAID5\:raid5 /media/`  |
+| **zenity** | `zenity --entry --title "Name request" --text "Please enter your name:"`  |  
+| **bash** | `bash Bash3.sh`  |  
+| Content Cell | Content Cell  |
 | Content Cell | Content Cell  |  
 | Content Cell | Content Cell  |  
+| Content Cell | Content Cell  |
 | Content Cell | Content Cell  |  
 | Content Cell | Content Cell  |  
+| Content Cell | Content Cell  |
 | Content Cell | Content Cell  |  
 | Content Cell | Content Cell  |  
+| Content Cell | Content Cell  | 
+| Content Cell | Content Cell  |  
+| Content Cell | Content Cell  |  
+| Content Cell | Content Cell  |
+| Content Cell | Content Cell  |  
+| Content Cell | Content Cell  |  
+| Content Cell | Content Cell  |
+| Content Cell | Content Cell  |  
+| Content Cell | Content Cell  |  
+| Content Cell | Content Cell  |
+| Content Cell | Content Cell  |  
+| Content Cell | Content Cell  |  
+| Content Cell | Content Cell  |
+| Content Cell | Content Cell  |  
+| Content Cell | Content Cell  |  
+| Content Cell | Content Cell  |
 
 FORMATO TABLA
 
