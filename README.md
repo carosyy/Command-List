@@ -57,10 +57,10 @@ Command List for Linux (Ubuntu, Manjaro, Docker, etc.) through VirtualBox 6
 | `diff` | Compara dos contenidos de un archivo línea por línea  |  `diff <nombre archivo 1> <nombre archivo 2>` para comparar los contenidos de dos archivos en especifico  |
 | `git clone` | Línea de comandos de Git que se utiliza para apuntar a un repositorio existente y crear un clon o una copia del repositorio de destino  |  `git clone <opcion> <URL de Git>` para descargar repositorios que se encuenten en Github  |
 | `curl` | Línea de comandos para transferir datos hacia o desde un servidor, utilizando cualquiera de los protocolos admitidos (HTTP, FTP, IMAP, POP3, SCP, SFTP, SMTP, TFTP, TELNET, LDAP o FILE)  |  `curl <opcion> <URL>` para intercambiar informacion de equipo a un servidor  |
-| `wc` | Content Cell  |  Content Cell  |
-| `pwsh` | Content Cell  |  Content Cell  |
-| `updatedb` | Content Cell  |  Content Cell  |
-| `scp` | Content Cell  |  Content Cell  |
+| `wc` | calcula el recuento de palabras, líneas, caracteres o bytes de un archivo  |  `wc <opcion> <nombre archivo` para calcular el recuento de elementos en un archivo  |
+| `pwsh` | Iniciar un instancia de Powershell, abrir la terminal de Powershell y ejecutar scripts con el formato .ps1  |  Solo se necesita ejecutar `pwsh` para ingresar a Powershell, `pwsh <nombre script>.ps1` para ejecutar un script de Powershell en la terminal  | 
+| `updatedb` | Crea o actualiza una base de datos utilizada por mlocate. Si la base de datos ya existe, sus datos se reutilizan para evitar volver a leer directorios que no han cambiado. Cron suele ejecutar dailyb para actualizar la base de datos predeterminada.  |  `updatedb <opcion>` para crear, revisar o actualizar datos, sin volver a tener que leer datos que ya estan cargados y no han sido modificados  |
+| `scp` | Línea de comandos que le permite copiar archivos y directorios de forma segura entre dos ubicaciones  |  `scp <opcion> <nombre achivo> <usuario@IP:/ruta/del/directorio>` para copiar documentos de manera remota a otro escritorio |
 | `bash` | Content Cell  |  Content Cell  |
 | `zenity` | Content Cell  |  Content Cell  |
 | `docker` | Content Cell  |  Content Cell  |
