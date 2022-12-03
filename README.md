@@ -44,7 +44,7 @@ Command List for Linux (Ubuntu, Manjaro, Docker, etc.) through VirtualBox 6
 | `zenity` | Content Cell  |  Content Cell  |
 | `docker` | Content Cell  |  Content Cell  |
 | `systemctl` | Content Cell  |  Content Cell  |
-| `tar` | Content Cell  |  Content Cell  |
+| `tar` | Archiva varios archivos en un archivo TAR, un formato común de Linux similar a ZIP  |  `tar <opciones> <archivo_archivo> <archivo o directorio a archivar>` para archivar en formato TAR  |
 | `git clone` | Content Cell  |  Content Cell  |
 | `wget` | Content Cell  |  Content Cell  |
 | `locate` | Buscar un archivo en un sistema de base de datos  |  `locate -i <palabra>` para buscar una palabra en especifico sin hacer distincion entre miniscula o mayuscula. Para buscar dos palabras a la vez, cada palabra se separa por un asterico (*)  |
@@ -62,10 +62,10 @@ Command List for Linux (Ubuntu, Manjaro, Docker, etc.) through VirtualBox 6
 | `vim` | Content Cell  |  Content Cell  |
 | `rmdir` | Eliminar permanentement directorios vacios  |  `rmdir <nombre directorio>` para eliminar un directorio en especifico, necesita tener los privilegios `sudo` para poder ejecutarse  |
 | `touch` | Crear un documento vacio o generar o modificar una marca de tiempo en una linea de comando |  `touch <comando>` para ejecutar un comando que va a guardar en un documento, `touch <ruta archivo>` para cambiar la marca de tiempo de un archivo  |
-| `df` | Content Cell  |  Content Cell  |
-| `du` | Content Cell  |  Content Cell  |
-| `chmod` | Content Cell  |  Content Cell  |
-| `chown` | Content Cell  |  Content Cell  |
+| `df` | Informa sobre el uso del espacio en disco del sistema  |  `df-h` para visualizar el uso del espacio en disco del sistema del directorio actual en un formato legible por humanos |
+| `du` | Verificar cuánto espacio ocupa un archivo o un directorio |  `du <ruta>` para verificar el espacio que ocupa un archivo o directorio  |
+| `chmod` | Modifica los permisos de lectura, escritura y ejecución de un archivo o directorio. Tomar en cuenta las tres clases de usuarios: propietario , miembro del grupo y otros. |  `chmod <opción> <permiso> <nombre_archivo>` para cambiar los permisos de un archivo o directorio segun los permisos de lectura, escritura, y ejecucion asignados.  |
+| `chown` | Permite cambiar la propiedad de un archivo o directorio a un nombre de usuario específico  |  `chown <opción> <propietario> <archivo o directorio>` para cambiar los permisos de ese archivo a un usuario especifico |
 | `su` | Content Cell  |  Content Cell  |
 | `less` | Content Cell  |  Content Cell  |
 | `dpkg` | Content Cell  |  Content Cell  |
@@ -77,7 +77,7 @@ Command List for Linux (Ubuntu, Manjaro, Docker, etc.) through VirtualBox 6
 | `ln` | Content Cell  |  Content Cell  |
 | `apcalc` | Content Cell  |  Content Cell  |
 | `alias` | Content Cell  |  Content Cell  |
-| Content Cell | Content Cell  |  Content Cell  |
+| `diff` | Compara dos contenidos de un archivo línea por línea  |  `diff <nombre archivo 1> <nombre archivo 2>` para comparar los contenidos de dos archivos en especifico  |
 | Content Cell | Content Cell  |  Content Cell  |
 | Content Cell | Content Cell  |  Content Cell  |
 | Content Cell | Content Cell  |  Content Cell  |
