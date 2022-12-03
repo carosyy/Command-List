@@ -35,30 +35,16 @@ Command List for Linux (Ubuntu, Manjaro, Docker, etc.) through VirtualBox 6
 | `history` | Muestra el historial de todos los comandos ejecutados desde el principio | Solo se necesita ejecutar `history <opcion>` para visualizar los comandos ejecutados desde el inicio  |
 | `grep` | Buscar un palabra entre el texto de un archivo especifico  |  `grep <palabra a buscar> <archivo de texto>` para buscar un palabra especifica en un archivo fijo |
 | `reboot` | Reinicia el equipo |  Solo se necesita ejecutar `reboot` sin ningun comando o condicion para reiniciar el equipo  |
-| `apt install` | Content Cell  |  Content Cell  |
-| `find` | Content Cell  |  Content Cell  |
+| `find` | Encontrar y filtrar archivos  |  `find <ruta directorio> <parametro a buscar>` para buscar un elemento siguiendo la ruta indicada  |
 | `echo` | Imprime lineas de texto en la terminal  |  `echo <opción> <cadena>` para imprimir lineas de texto en la terminal |
 | `>` | Se utiliza para convertir un comando a otro.  |  `ls > archivo.txt` es una ejemplo para que lo que imprime `ls` se guarde un archivo de texto. Tiene multiples usos y se puede combinar con otros comandos.  |
-| `scp` | Content Cell  |  Content Cell  |
-| `bash` | Content Cell  |  Content Cell  |
-| `zenity` | Content Cell  |  Content Cell  |
-| `docker` | Content Cell  |  Content Cell  |
-| `systemctl` | Content Cell  |  Content Cell  |
 | `tar` | Archiva varios archivos en un archivo TAR, un formato común de Linux similar a ZIP  |  `tar <opciones> <archivo_archivo> <archivo o directorio a archivar>` para archivar en formato TAR  |
-| `git clone` | Content Cell  |  Content Cell  |
 | `wget` | Descargar archivos de Internet  |  `wget <opción> <URL>` para descargar un paquete o archivo de Internet |
 | `locate` | Buscar un archivo en un sistema de base de datos  |  `locate -i <palabra>` para buscar una palabra en especifico sin hacer distincion entre miniscula o mayuscula. Para buscar dos palabras a la vez, cada palabra se separa por un asterico (*)  |
 | `zip` | Comprime archivos en un archivo ZIP |  `zip <opciones> <nombre archivo ZIP>.zip <archivo(s)>` para comprimir un archivo o directorio |
 | `unzip` | Extrae los archivos comprimidos de un archivo ZIP |  `unzip <option> <nombre archivo ZIP>.zip` para descomprimir un archivo o directorio |
-| `curl` | Content Cell  |  Content Cell  |
-| `wc` | Content Cell  |  Content Cell  |
-| `apt-get` | Herramienta de línea de comandos para manejar las bibliotecas de Advanced Package Tool (APT)  |  `apt-get <opciones> <comando>` para descargar, administrar, actualizar, y eliminar algun software o aplicacion  |
-| `pwsh` | Content Cell  |  Content Cell  |
-| `updatedb` | Content Cell  |  Content Cell  |
+| `apt-get` / `apt` | Herramienta de línea de comandos para manejar las bibliotecas de Advanced Package Tool (APT)  |  `apt-get <opciones> <comando>` para descargar, administrar, actualizar, y eliminar algun software o aplicacion  |
 | `uname` | Imprime información detallada sobre el sistema y hardware |  `uname <opción>` para ver la informacion del sistema y hardware, `uname -a` para que imprima **toda** la informacion del sistema y hardward |
-| `ifconfig` | Content Cell  |  Content Cell  |
-| `network` | Content Cell  |  Content Cell  |
-| `vim` | Content Cell  |  Content Cell  |
 | `rmdir` | Eliminar permanentement directorios vacios  |  `rmdir <nombre directorio>` para eliminar un directorio en especifico, necesita tener los privilegios `sudo` para poder ejecutarse  |
 | `touch` | Crear un documento vacio o generar o modificar una marca de tiempo en una linea de comando |  `touch <comando>` para ejecutar un comando que va a guardar en un documento, `touch <ruta archivo>` para cambiar la marca de tiempo de un archivo  |
 | `df` | Informa sobre el uso del espacio en disco del sistema  |  `df-h` para visualizar el uso del espacio en disco del sistema del directorio actual en un formato legible por humanos |
@@ -66,6 +52,19 @@ Command List for Linux (Ubuntu, Manjaro, Docker, etc.) through VirtualBox 6
 | `chmod` | Modifica los permisos de lectura, escritura y ejecución de un archivo o directorio. Tomar en cuenta las tres clases de usuarios: propietario , miembro del grupo y otros. |  `chmod <opción> <permiso> <nombre_archivo>` para cambiar los permisos de un archivo o directorio segun los permisos de lectura, escritura, y ejecucion asignados.  |
 | `chown` | Permite cambiar la propiedad de un archivo o directorio a un nombre de usuario específico  |  `chown <opción> <propietario> <archivo o directorio>` para cambiar los permisos de ese archivo a un usuario especifico |
 | `su` | Ejecutar un programa como un usuario diferente  |  `su <opcion> <nombre de usuario>` para cambiar de un usuario a otro sin tener que salir de session |
+| `git clone` | Content Cell  |  Content Cell  |
+| `curl` | Content Cell  |  Content Cell  |
+| `wc` | Content Cell  |  Content Cell  |
+| `pwsh` | Content Cell  |  Content Cell  |
+| `updatedb` | Content Cell  |  Content Cell  |
+| `scp` | Content Cell  |  Content Cell  |
+| `bash` | Content Cell  |  Content Cell  |
+| `zenity` | Content Cell  |  Content Cell  |
+| `docker` | Content Cell  |  Content Cell  |
+| `systemctl` | Content Cell  |  Content Cell  |
+| `ifconfig` | Content Cell  |  Content Cell  |
+| `network` | Content Cell  |  Content Cell  |
+| `vim` | Content Cell  |  Content Cell  |
 | `less` | Content Cell  |  Content Cell  |
 | `dpkg` | Content Cell  |  Content Cell  |
 | `ping` | Comprobar si se puede acceder a una red o un servidor  |  `ping <opción> <hostname or IP address>` para verificar la conexion a internet o un servidor  |
@@ -128,23 +127,3 @@ Command List for Linux (Ubuntu, Manjaro, Docker, etc.) through VirtualBox 6
 | Content Cell | Content Cell  |  Content Cell  |
 | Content Cell | Content Cell  |  Content Cell  |
 | Content Cell | Content Cell  |  Content Cell  |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
