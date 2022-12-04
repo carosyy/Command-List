@@ -86,7 +86,7 @@ Lista de Ejemplos de Comandos
 | ------------- | ------------- |
 | **sudo** | `sudo su`, `sudo ./VBoxLinuxAdditions.run`,  |
 | **apt/apt-get** | `apt install neofetch`, `sudo apt update`,`sudo apt install snapd`,`sudo snap install`, `sudo add-apt-repository ppa:numix/ppa -y`,`sudo apt install numix-icon-theme-circle`,`sudo apt install numix-gtk-theme`,`apt install locate`,`sudo apt-get install ocrfeeder tesseract-ocr tesseract-ocr-spa tesseract-ocr-eng gocr cuneiform ocropusocrad`,`sudo apt -y install flameshot`  |  
-| **less** | ``archivo largo | less`` |  
+| **less** | `less /etc/updatedb.conf`,`less welcome.txt` |  
 | **mv** | `mv HolaSemanal.txt Documents`  |  
 | **rm** | `rm random.txt`  | 
 | **more** | `ls -l / -R `|` more`  |  
