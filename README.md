@@ -67,12 +67,12 @@ Lista de Comandos (Ubuntu, Manjaro, Docker, etc.) por VirtualBox 6
 | `systemctl` | Línea de comandos de Linux que se utiliza para controlar y administrar systemd y servicios.  |  `systemctl <opciones> <comandos>` para revisar y controlar el systemd |
 | `ifconfig` | Se utiliza en el momento del arranque para configurar interfaces  |  `ifconfig <opciones> <nombre interfaz>` para modificar la interfaz de algun network |
 | `netstat` | Proporciona cifras estadísticas sobre diferentes interfaces que incluyen sockets abiertos, tablas de enrutamiento e información de conexión.   |  `netstat -p` para visualizar programas asociados al socket, `netstat -s` para obtener detalles de todos los puertos  |
-| `vim` | Crear un archivo nuevo, editar un archivo existente o simplemente leer un archivo.  |  `vim <argumentos> <opciones> <nombre archivo>` para crear o editar archivos que ejecutan un accion dentro del sistema  |
+| `vim` | Crear un archivo nuevo, editar un archivo existente o simplemente leer un archivo.  | Comando para su instalacion: `apt install vim` El comando `vim <argumentos> <opciones> <nombre archivo>` es para crear o editar archivos que ejecutan un accion dentro del sistema  |
 | `less` | Muestra el contenido de un archivo una pantalla a la vez  | `less <opciones> <ruta archivo>` para visualizar el contenido de un documento largo en hojas |
 | `dpkg` | Es una herramienta para instalar, compilar, eliminar y administrar paquetes de Debian  |  `dpkg <opciones> <nombre paquete .deb>` para interactuar con paquetes que contiene o se descargaron en el sistema  |
 | `fdisk` | Crear y manipular la tabla de particiones del disco  |  `fdisk <opciones> <dispositivo>` o `fdisk -l <dispositivo>` para visualizar las particiones del disco del sistema |
 | `ln` | Crear enlaces duros o suaves/blandos de archivos o directorios  |  `ln <ruta archivo/directorio> <nombre enlace duro>` para crear enlaces duros de un archivo o directorio, `ln -s <ruta archivo/directorio> <nombre enlace duro>` para crear enlaces suaves/blandos de un archivo o directorio  |
-| `apcalc` | Programa que nos permite realizar operaciones matemáticas desde una ventana de terminal  |  `calc <operacion>` para que el programa resuelva la operacion introducida  |
+| `apcalc` | Programa que nos permite realizar operaciones matemáticas desde una ventana de terminal  |  Comando para su instalacion: `sudo apt install calc`  El comando `calc <operacion>` es para que el programa resuelva la operacion introducida  |
 | `nmap` | Línea de comandos de Linux para la exploración de redes y la auditoría de seguridad  |  Comando para su instalacion: `sudo apt-get install nmap`. `nmap <URL>` o `<IP>` para obtener informacion detallada de la red, puertos abiertos, IPs activadas, etc.  |
 | `nslookup` | Utilizado para consultas relacionadas con el Domain Name System (DNS)  |  `nslookup <nombre dominio>` para buscar relaciones con un servidor DNS  |
 | `dd` | Convertir y copiar archivos |  `dd <opciones>` para hacer copias de seguridad para archivos importantes del sistema operativo  |
@@ -98,7 +98,7 @@ Lista de Ejemplos de Comandos
 | **nano** | `nano archivo1.txt`,`nano /svr/html/index.html`,`nano apache`  |  
 | **cd** | `cd U/dirdos` |  
 | **ls** | `ls /bin`, `ls -l $HOME 1> $HOME/dir003/dircuatro/archivo3.txt`  |  
-| **cat** | `cat archivo1.txt`,`cat /proc/version | grep "Linux version"`,`cat /proc/cpuinfo | grep "model name"`  |  
+| **cat** | `cat archivo1.txt`,`cat /proc/cpuinfo`  |  
 | **>** | `ls -la /bin > archivo1.txt`  |  
 | **cp** | `cp -rv /etc/a* $HOME/U/dir004 1> $HOME/U/dir003/dircuatro/archivo2.txt`,`cp /etc/profile $HOME/dir003/dircuatro/`  |  
 | **find** | `find pcolor`,`find /home/mortasoft/ -name index.html`,`find / -name foo 2>/dev/null`  |  
@@ -130,36 +130,17 @@ Lista de Ejemplos de Comandos
 | **crontab** | `crontab -e`  | 
 | **chmod** | `chmod ugo+x HolaSemanal.sh`  |  
 | **dpkg** | `sudo dpkg -i code_1.71.2-1663191218_amd64.deb`  |  
-| **docker**   | Content Cell  |  
+| **docker**   | `sudo docker run -it ubuntu`,`docker ps -a`,`docker start mi_ubuntu`,`sudo docker start mi_ubuntu`,`sudo docker attach mi_ubuntu`,`sudo docker pull portainer/portainer-ce:latest`,`sudo docker volume create portainer_data`,`docker search ubuntu`,`docker pull ubuntu`,`docker images`,`docker rm 9e6947a138c2`,`docker network ls`,`docker rmi 4b`  |  
 | **man** | `man find`  |  
 | **mount** | `sudo mount -t ext4 /dev/md/RAID5\:raid5 /media/RAID5`,`sudo mount -t ext4 /dev/md/RAID5\:raid5 /media/`  |
 | **zenity** | `zenity --entry --title "Name request" --text "Please enter your name:"`  |  
 | **bash** | `bash Bash3.sh`  |  
-| Content Cell | Content Cell  |
-| Content Cell | Content Cell  |  
-| Content Cell | Content Cell  |  
-| Content Cell | Content Cell  |
-| Content Cell | Content Cell  |  
-| Content Cell | Content Cell  |  
-| Content Cell | Content Cell  |
-| Content Cell | Content Cell  |  
-| Content Cell | Content Cell  |  
-| Content Cell | Content Cell  | 
-| Content Cell | Content Cell  |  
-| Content Cell | Content Cell  |  
-| Content Cell | Content Cell  |
-| Content Cell | Content Cell  |  
-| Content Cell | Content Cell  |  
-| Content Cell | Content Cell  |
-| Content Cell | Content Cell  |  
-| Content Cell | Content Cell  |  
-| Content Cell | Content Cell  |
-| Content Cell | Content Cell  |  
-| Content Cell | Content Cell  |  
-| Content Cell | Content Cell  |
-| Content Cell | Content Cell  |  
-| Content Cell | Content Cell  |  
-| Content Cell | Content Cell  |
+| **apcalc** | `calc 8+2`  |
+| **top** | `sudo top -u cmoraj577`  |  
+| **vim** | `vim Dockerfile`  |  
+| **ifconfig** | `ifconfig -s`,`ifconfig docker0`  |
+| **rmdir** | `rmdir dir003`  |  
+
 
 FORMATO TABLA
 
