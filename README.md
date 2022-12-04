@@ -103,7 +103,7 @@ Lista de Ejemplos de Comandos
 | **cp** | `cp -rv /etc/a* $HOME/U/dir004 1> $HOME/U/dir003/dircuatro/archivo2.txt`,`cp /etc/profile $HOME/dir003/dircuatro/`  |  
 | **find** | `find pcolor`,`find /home/mortasoft/ -name index.html`,`find / -name foo 2>/dev/null`  |  
 | **kill** | `pkill colord`  |  
-| **echo** | `echo "Hola Mundo"`,`echo /tmp/Sistemas/Operativos/Semana/3 /opt/datos/ubuntu | xargs -n 1 cp '/run/initramfs/fsck.log'`  |  
+| **echo** | `echo "Hola Mundo"`,`echo /tmp/Sistemas/Operativos/Semana/3 /opt/datos/ubuntu`  |  
 | **systemctl** | `sudo systemctl restart httpd`,`sudo systemctl start docker`,`sudo systemctl enable docker`,`sudo systemctl status docker`  |  
 | **chown** | `chown -R 700 nicit /home/cmoraj577/U/dir003`  |  
 | **wget** | `wget https://wordpress.org/latest.zip`, `wget -qO- https://git.io/papirus-icon-theme-install`  |  
