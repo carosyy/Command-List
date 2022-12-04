@@ -82,7 +82,7 @@ Lista de Comandos (Ubuntu, Manjaro, Docker, etc.) por VirtualBox 6
 
 
 Lista de Ejemplos de Comandos
-| Commando  | Ejemplo |
+| Commando  | Ejemplos |
 | ------------- | ------------- |
 | **sudo** | `sudo su`, `sudo ./VBoxLinuxAdditions.run`,  |
 | **apt/apt-get** | `apt install neofetch`, `sudo apt update`,`sudo apt install snapd`,`sudo snap install`, `sudo add-apt-repository ppa:numix/ppa -y`,`sudo apt install numix-icon-theme-circle`,`sudo apt install numix-gtk-theme`,`apt install locate`,`sudo apt-get install ocrfeeder tesseract-ocr tesseract-ocr-spa tesseract-ocr-eng gocr cuneiform ocropusocrad`,`sudo apt -y install flameshot`  |  
